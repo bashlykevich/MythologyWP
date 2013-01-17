@@ -69,6 +69,8 @@
     <Compile Include="Data\DAO\Character.cs" />
     <Compile Include="Data\DAO\Language.cs" />
     <Compile Include="Data\DAO\Nation.cs" />
+    <Compile Include="Data\Game\GameScreen.cs" />
+    <Compile Include="Data\Game\MythGame.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -98,9 +100,7 @@
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="todo.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\Game\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
