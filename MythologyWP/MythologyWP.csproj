@@ -62,7 +62,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Data\AppSettings\AppSettings.cs" />
+    <Compile Include="Data\AppSettings\MythAppSettings.cs" />
     <Compile Include="Data\DAL\MythDataContext.cs" />
+    <Compile Include="Data\DAL\MythDB.cs" />
     <Compile Include="Data\DAO\Character.cs" />
     <Compile Include="Data\DAO\Language.cs" />
     <Compile Include="Data\DAO\Nation.cs" />
@@ -93,9 +96,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SplashScreenImage.jpg" />
+    <Content Include="todo.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\AppSettings\" />
     <Folder Include="Data\Game\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
