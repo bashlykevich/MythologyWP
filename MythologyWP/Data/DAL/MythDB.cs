@@ -23,13 +23,13 @@ namespace MythologyWP.Data.DAL
             string ConnectionString = "isostore:/MythologyWP.sdf";
             Database = new MythDataContext(ConnectionString);
             {
-                if (Database.DatabaseExists())
-                {
-                    Database.DeleteDatabase();
-                }
+                //if (Database.DatabaseExists())
+                //{
+                //    Database.DeleteDatabase();
+                //}
                 if (!Database.DatabaseExists())
                 {                    
-                    Database.DeleteDatabase();
+                    //Database.DeleteDatabase();
                     // create database if it does not exist
                     Database.CreateDatabase();
                 }
