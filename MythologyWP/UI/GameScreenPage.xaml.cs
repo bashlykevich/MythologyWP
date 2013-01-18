@@ -68,8 +68,9 @@ namespace MythologyWP.UI
         void StopGame()
         {
             timer.Stop();            
-            // navigate to result page                        
-            NavigationService.Navigate(new Uri(@"/UI/GameResultPage.xaml", UriKind.Relative));
+            // navigate to result page      
+            string uri = @"/UI/GameResultPage.xaml?right=" + game.aRight + "&wrong=" + game.aWrong;      
+            NavigationService.Navigate(new Uri(uri, UriKind.Relative));
 
         }
         private void OnTimerTick(object sender, EventArgs args)
@@ -118,10 +119,12 @@ namespace MythologyWP.UI
             Button btn = (Button)sender;
             if (btn.Tag == "+")
             {
+                game.aRight++;
                 ShowNextPlot();
             }
             else if(btn.Tag == "-")
             {
+                game.aWrong++;
                 Grid grid = btn.Content as Grid;
                 grid.Children[0].Visibility = System.Windows.Visibility.Visible;
                 btn.Tag = ".";

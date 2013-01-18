@@ -21,8 +21,8 @@ namespace MythologyWP.Data.Game
         private List<Character> characters = new List<Character>();
         public int timeLeft;
         //private int[] nationsFilter = {-1};
-        private int aRight;
-        private int aWrong;
+        public int aRight;
+        public int aWrong;
         private int currentIndex;
 
         public MythGame(int _timeLeft = 59 /* ,int[] _nationsFilter = null*/)

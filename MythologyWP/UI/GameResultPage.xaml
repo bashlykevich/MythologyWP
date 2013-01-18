@@ -11,7 +11,8 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
-    BackKeyPress="PhoneApplicationPage_BackKeyPress"
+    BackKeyPress="PhoneApplicationPage_BackKeyPress"    
+    Loaded="PhoneApplicationPage_Loaded"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -23,12 +24,54 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle" 
+                       Text="Mythology Quiz for Windows Phone" 
+                       Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Results" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"></Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>  
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0"
+                       Grid.Column="0"
+                       Text="Right answers:"/>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="0"
+                       Text="Wrong answers:"/>
+            <TextBlock Grid.Row="2"
+                       Grid.Column="0"
+                       Text="Total:"/>
+
+            <TextBlock Grid.Row="0"
+                       Grid.Column="1"
+                       Name="edtRight"
+                       Text=""/>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="1"
+                       Name="edtWrong"
+                       Text=""/>
+            <TextBlock Grid.Row="2"
+                       Grid.Column="1"
+                       Name="edtTotal"
+                       Text=""/>
+            <Button Name="btnMenu"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Content="Menu" Click="btnMenu_Click" />
+                       
+        </Grid>
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->

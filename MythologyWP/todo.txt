@@ -1,6 +1,4 @@
-﻿Points calculation
-Result page design
-Main page design
+﻿Main page design
 About page
 Settings page
 i18n
