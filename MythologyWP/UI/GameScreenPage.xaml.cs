@@ -33,18 +33,22 @@ namespace MythologyWP.UI
             btnVersions[3] = btnVersion3;
             foreach (Button btn in btnVersions)
                 btn.Click += UserClickAnswer;
+            StartGame();
         }
         void StartGame()
         {
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += OnTimerTick;
             timer.Start();
+
             ShowNextPlot();
         }
         void ShowNextPlot()
         {
             if (game.IsEndOfGame())
+            {
                 StopGame();
+            }
             else
             {
                 GameScreen gs = game.NextRound();
@@ -62,7 +66,8 @@ namespace MythologyWP.UI
         {
             timer.Stop();
             // navigate to result page
-            NavigationService.Navigate(new Uri(@"/UI/GameResultPage.xaml", UriKind.Relative));
+            Uri uri = new Uri(@"/UI/GameResultPage.xaml");
+            //NavigationService.Navigate(uri);
         }
         private void OnTimerTick(object sender, EventArgs args)
         {

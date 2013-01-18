@@ -27,7 +27,7 @@ namespace MythologyWP.Data.Game
 
         public MythGame(int _timeLeft = 60 /* ,int[] _nationsFilter = null*/)
         {
-            currentIndex = -1;
+            currentIndex = 0;
             aRight = 0;
             aWrong = 0;
             timeLeft = _timeLeft;
@@ -39,17 +39,17 @@ namespace MythologyWP.Data.Game
         }
         public bool IsEndOfGame()
         {
-            if (currentIndex >= characters.Count || characters.Count == 0)
+            if (currentIndex >= characters.Count)
                 return true;
             else
                 return false;
         }
         public GameScreen NextRound()
         {
-            currentIndex++;
-            if ((currentIndex < 0) || (currentIndex >= characters.Count) || (characters.Count == 0))
-                throw new Exception("Index is out of range exception");
-            return new GameScreen(characters[currentIndex]);
+            //currentIndex++;
+            //if ((currentIndex < 0) || (currentIndex >= characters.Count) || (characters.Count == 0))
+            //    throw new Exception("Index is out of range exception");
+            return new GameScreen(characters[currentIndex++]);
         }
     }
 }
