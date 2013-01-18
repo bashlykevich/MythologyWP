@@ -113,6 +113,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Images\GameScreenBanner.jpg" />
+    <Resource Include="Images\correctanswer.png" />
+    <Resource Include="Images\wronganswer.png" />
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="todo.txt" />
   </ItemGroup>
