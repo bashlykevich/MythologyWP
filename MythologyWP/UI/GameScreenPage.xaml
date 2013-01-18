@@ -39,22 +39,30 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>                
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="90" />
-                <RowDefinition Height="90" />
-                <RowDefinition Height="90" />
-                <RowDefinition Height="90" />
-                <RowDefinition Height="160"/>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="150"/>
             </Grid.RowDefinitions>
-            
-            <TextBlock Name="edtPlot"
-                       Grid.Row="0"                       
-                       TextWrapping="Wrap"
-                       Text="Question Plot"
-                       Margin="10"/>
+
+            <ScrollViewer Name="svQuestion"
+                          Grid.Row="0"
+                          Margin="10,5,10,0"
+                    HorizontalAlignment="Stretch"
+                              VerticalAlignment="Top"
+                              VerticalScrollBarVisibility="Auto">
+                <TextBlock Name="edtPlot"
+                               VerticalAlignment="Stretch"
+                               HorizontalAlignment="Stretch"
+                               FontSize="24"
+                               TextWrapping="Wrap" />
+            </ScrollViewer>
+  
             <Button Name="btnVersion0"
                     Grid.Row="1"  
                     HorizontalContentAlignment="Stretch"                    
-                    Margin="10,5,10,5">
+                    Margin="10,0,10,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"/>
@@ -71,7 +79,7 @@
             <Button Name="btnVersion1"
                     Grid.Row="2"                   
                     HorizontalContentAlignment="Stretch"
-                    Margin="10,5,10,5">
+                     Margin="10,0,10,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"/>
@@ -88,7 +96,7 @@
             <Button Name="btnVersion2"
                     HorizontalContentAlignment="Stretch"
                     Grid.Row="3"                    
-                    Margin="10,5,10,5">
+                     Margin="10,0,10,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"/>
@@ -105,7 +113,7 @@
             <Button Name="btnVersion3"
                     HorizontalContentAlignment="Stretch"
                     Grid.Row="4"                    
-                    Margin="10,5,10,5">
+                     Margin="10,0,10,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"/>
