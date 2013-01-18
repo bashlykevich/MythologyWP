@@ -20,7 +20,7 @@ namespace MythologyWP.Data.Game
     public class GameScreen
     {
         public string plot;
-        public List<string> versions;
+        public List<string> versions = new List<string>();
         public int rightIndex;
 
         public GameScreen(Character character)
@@ -40,7 +40,7 @@ namespace MythologyWP.Data.Game
                 do
                 {
                     vers = characters[r.Next(characters.Count)].Name;//[MythAppSettings.LanguageID];
-                } while (versions.Contains(vers));
+                } while (versions.Contains(vers) && characters.Count > 3);
 
                 versions.Add(vers);
             }

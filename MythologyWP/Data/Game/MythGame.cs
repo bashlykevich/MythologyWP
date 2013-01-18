@@ -47,8 +47,8 @@ namespace MythologyWP.Data.Game
         public GameScreen NextRound()
         {
             //currentIndex++;
-            //if ((currentIndex < 0) || (currentIndex >= characters.Count) || (characters.Count == 0))
-            //    throw new Exception("Index is out of range exception");
+            if ((currentIndex < 0) || (currentIndex >= characters.Count) || (characters.Count == 0))
+                throw new Exception("Index is out of range exception");
             return new GameScreen(characters[currentIndex++]);
         }
     }

@@ -17,6 +17,16 @@ namespace MythologyWP.Data.DAO
     [Table(Name = "Characters")]
     public class Character
     {
+        public Character()
+        {
+        }
+        public Character(string name, string description, Nation nation)
+        {
+            Name = name;
+            Description = description;
+            Nation = nation;
+        }
+
         [Column(IsPrimaryKey = true, IsDbGenerated = true)]
         public int ID
         {

@@ -21,7 +21,11 @@ namespace MythologyWP.Data.DAO
         {
             this.charactersRef = new EntitySet<Character>(this.OnCharacterAdded, this.OnCharacterRemoved);
         }
-
+        public Nation(string name)
+        {
+            Name = name;
+            this.charactersRef = new EntitySet<Character>(this.OnCharacterAdded, this.OnCharacterRemoved);
+        }
 
         [Column(IsPrimaryKey = true, IsDbGenerated = true)]
         public int ID
@@ -39,12 +43,12 @@ namespace MythologyWP.Data.DAO
 
         private void OnCharacterAdded(Character character)
         {
-            //character.Nation = this;
+            character.Nation = this;
         }
 
         private void OnCharacterRemoved(Character character)
         {
-            //character.Nation = null;
+            character.Nation = null;
         }
 
         private EntitySet<Character> charactersRef;
