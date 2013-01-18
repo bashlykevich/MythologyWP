@@ -56,8 +56,10 @@ namespace MythologyWP.UI
                 edtPlot.Text = gs.plot;
 
                 for (int i = 0; i < 4; i++)
-                {
-                    btnVersions[i].Content = gs.versions[i];
+                {                    
+                    Grid grid = btnVersions[i].Content as Grid;
+                    grid.Children[0].Visibility = System.Windows.Visibility.Collapsed;                    
+                    (grid.Children[1] as TextBlock).Text = gs.versions[i];
                     btnVersions[i].Tag = "-";
                 }
                 btnVersions[gs.rightIndex].Tag = "+";
@@ -118,9 +120,11 @@ namespace MythologyWP.UI
             {
                 ShowNextPlot();
             }
-            else
+            else if(btn.Tag == "-")
             {
-                btn.Content = "WRONG";
+                Grid grid = btn.Content as Grid;
+                grid.Children[0].Visibility = System.Windows.Visibility.Visible;
+                btn.Tag = ".";
             }
         }
 

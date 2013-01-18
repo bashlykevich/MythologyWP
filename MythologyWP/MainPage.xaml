@@ -32,10 +32,12 @@
                 <RowDefinition Height="100"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Name="btnStart"
-                    Grid.Row="0"
-                    Height="100"
-                    Content="Start" Click="btnStart_Click" />
+            <Button Name="btnStart" Height="100"
+                    Click="btnStart_Click" Margin="0,1,0,506" Grid.RowSpan="2" >
+                <Button.Content>
+                   <TextBlock Text="Start" Margin="2,0,0,0" VerticalAlignment="Center" />                   
+                </Button.Content>
+            </Button>                        
         </Grid>
     </Grid>
  

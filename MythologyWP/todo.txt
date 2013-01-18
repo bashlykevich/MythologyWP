@@ -1,5 +1,4 @@
-﻿Wrong answer mark on button
-Points calculation
+﻿Points calculation
 Result page design
 Main page design
 About page
