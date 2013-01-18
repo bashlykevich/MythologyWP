@@ -25,7 +25,7 @@ namespace MythologyWP.Data.Game
         private int aWrong;
         private int currentIndex;
 
-        public MythGame(int _timeLeft = 60 /* ,int[] _nationsFilter = null*/)
+        public MythGame(int _timeLeft = 59 /* ,int[] _nationsFilter = null*/)
         {
             currentIndex = 0;
             aRight = 0;

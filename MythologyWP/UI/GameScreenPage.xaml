@@ -11,6 +11,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    BackKeyPress="PhoneApplicationPage_BackKeyPress"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -31,8 +32,7 @@
                         HorizontalAlignment="Right"
                         Margin="0,0,12,0"
                         Name="spTimer">
-                <TextBlock Name="edtTimer"                           
-                           Text="00:60"/>
+                <TextBlock Name="edtTimer" />
             </StackPanel>
         </StackPanel>
         <!--ContentPanel - place additional content here-->
@@ -48,6 +48,7 @@
             
             <TextBlock Name="edtPlot"
                        Grid.Row="0"                       
+                       TextWrapping="Wrap"
                        Text="Question Plot"
                        Margin="10"/>
             <Button Name="btnVersion0"

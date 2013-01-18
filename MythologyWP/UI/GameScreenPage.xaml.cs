@@ -33,6 +33,7 @@ namespace MythologyWP.UI
             btnVersions[3] = btnVersion3;
             foreach (Button btn in btnVersions)
                 btn.Click += UserClickAnswer;
+            edtTimer.Text = GetTimeString(game.timeLeft+1);
             StartGame();
         }
         void StartGame()
@@ -41,7 +42,7 @@ namespace MythologyWP.UI
             timer.Tick += OnTimerTick;
             timer.Start();
 
-            ShowNextPlot();
+            ShowNextPlot();            
         }
         void ShowNextPlot()
         {
@@ -64,10 +65,10 @@ namespace MythologyWP.UI
         }
         void StopGame()
         {
-            timer.Stop();
-            // navigate to result page
-            Uri uri = new Uri(@"/UI/GameResultPage.xaml");
-            //NavigationService.Navigate(uri);
+            timer.Stop();            
+            // navigate to result page                        
+            NavigationService.Navigate(new Uri(@"/UI/GameResultPage.xaml", UriKind.Relative));
+
         }
         private void OnTimerTick(object sender, EventArgs args)
         {
@@ -86,7 +87,7 @@ namespace MythologyWP.UI
         private string GetTimeString(int secs)
         {
             if (secs == 0)
-                return "ВРЕМЯ!";
+                return "";
             string r = "";
             int min = 0;
             int sec = 0;
@@ -121,6 +122,11 @@ namespace MythologyWP.UI
             {
                 btn.Content = "WRONG";
             }
+        }
+
+        private void PhoneApplicationPage_BackKeyPress(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            NavigationService.Navigate(new Uri(@"/MainPage.xaml", UriKind.Relative));
         }        
     }
 }

@@ -26,7 +26,7 @@ namespace MythologyWP.Data.DAL
             {
                 if (Database.DatabaseExists())
                 {
-                    Database.DeleteDatabase();
+                    //Database.DeleteDatabase();
                 }
                 if (!Database.DatabaseExists())
                 {                                                    
@@ -54,13 +54,9 @@ namespace MythologyWP.Data.DAL
             Database.Characters.InsertOnSubmit(new Character("Rhea", "The Titaness daughter of the sky god Uranus and the earth goddess Gaia", greekz));
             Database.Characters.InsertOnSubmit(new Character("Dionysus", "God of Wine, Merry Making, Theatre and Ecstasy", greekz));
             Database.Characters.InsertOnSubmit(new Character("Hebe", "Cupbearer to the gods, Goddess of eternal youth", greekz));
-            Database.Characters.InsertOnSubmit(new Character("Hermes", "Messenger of the gods, God of commerce, thieves, travelers, sports, athletes, and border crossings, fish, guide to the Underworld", greekz));
-            /*Ares, Athena, Apollo, Artemis, Aphrodite,[2] Dionysus, Hebe, Hermes, Heracles, Helen of Troy, Hephaestus, Perseus, Minos, the Muses, the Graces*/
+            Database.Characters.InsertOnSubmit(new Character("Hermes", "Messenger of the gods, God of commerce, thieves, travelers, sports, athletes, and border crossings, fish, guide to the Underworld", greekz));            
             
             Database.SubmitChanges();
-        }
-        void CreateGreekCharacter(string name, Nation nation)
-        {
         }
     }
 }
