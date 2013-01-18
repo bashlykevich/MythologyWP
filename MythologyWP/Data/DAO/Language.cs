@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Data.Linq.Mapping;
+using System.Collections.Generic;
 
 namespace MythologyWP.Data.DAO
 {
@@ -23,7 +24,7 @@ namespace MythologyWP.Data.DAO
         }
 
         [Column(CanBeNull = false)]
-        public string[] Name
+        public string Name
         {
             get;
             set;

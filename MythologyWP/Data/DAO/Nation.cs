@@ -31,10 +31,20 @@ namespace MythologyWP.Data.DAO
         }
 
         [Column(CanBeNull = false)]
-        public string[] Name
+        public string Name
         {
             get;
             set;
+        }      
+
+        private void OnCharacterAdded(Character character)
+        {
+            //character.Nation = this;
+        }
+
+        private void OnCharacterRemoved(Character character)
+        {
+            //character.Nation = null;
         }
 
         private EntitySet<Character> charactersRef;
@@ -45,16 +55,6 @@ namespace MythologyWP.Data.DAO
             {
                 return this.charactersRef;
             }
-        }
-
-        private void OnCharacterAdded(Character character)
-        {
-            character.Nation = this;
-        }
-
-        private void OnCharacterRemoved(Character character)
-        {
-            character.Nation = null;
         }
 
     }
