@@ -14,7 +14,7 @@ using System.Data.Linq;
 
 namespace MythologyWP.Data.DAO
 {
-    [Table]
+    [Table(Name = "Characters")]
     public class Character
     {
         [Column(IsPrimaryKey = true, IsDbGenerated = true)]
@@ -25,21 +25,34 @@ namespace MythologyWP.Data.DAO
         }
 
         [Column(CanBeNull = false)]
-        public string[] Name
+        public string Name
         {
             get;
             set;
         }      
         [Column(CanBeNull = false)]
-        public string[] Description
+        public string Description
         {
             get;
             set;
         }
+        private EntityRef<Nation> nationRef = new EntityRef<Nation>();        
         private Nullable<int> nationID;
-        private EntityRef<Nation> nationRef = new EntityRef<Nation>();
+        [Column(Storage = "nationID", DbType = "Int")]
+        public int? NationID
+        {
+            get
+            {
+                return this.nationID;
+            }
+            set
+            {
+                this.nationID = value;
+            }
+        }
+ 
 
-        [Association(Name = "FK_Nation_Characters", Storage = "nationRef", ThisKey = "Nation", OtherKey = "ID", IsForeignKey = true)]
+        [Association(Name = "FK_Nation_Characters", Storage = "nationRef", ThisKey = "NationID", OtherKey = "ID", IsForeignKey = true)]
         public Nation Nation
         {
             get
@@ -68,7 +81,6 @@ namespace MythologyWP.Data.DAO
                     }
                 }
             }
-        }        
-
+        }
     }
 }
