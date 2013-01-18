@@ -10,15 +10,46 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Collections.Generic;
 using MythologyWP.Data.DAO;
+using MythologyWP.Data.DAL;
+using System.Linq;
+using MythologyWP.Helpers;
 
 namespace MythologyWP.Data.Game
 {
     public class MythGame
     {
-        private List<Character> characters;
-        private int totalTime = 60;
-        private int[] nationsFilter = {-1};
-        private int aRight = 0;
-        private int aWrong = 0;        
+        private List<Character> characters = new List<Character>();
+        private int totalTime;
+        //private int[] nationsFilter = {-1};
+        private int aRight;
+        private int aWrong;
+        private int currentIndex;
+
+        public MythGame(int _totalTime = 60 /* ,int[] _nationsFilter = null*/)
+        {
+            currentIndex = -1;
+            aRight = 0;
+            aWrong = 0;
+            totalTime = _totalTime;
+            /*if (_nationsFilter != null)
+                nationsFilter = _nationsFilter;*/
+            // get all characters
+            characters = (from fd in MythDB.Instance.Database.Characters select fd).ToList();
+            characters.Shuffle();            
+        }
+        public bool IsEndOfGame()
+        {
+            if (currentIndex >= characters.Count || characters.Count == 0)
+                return true;
+            else
+                return false;
+        }
+        public GameScreen NextRound()
+        {
+            currentIndex++;
+            if ((currentIndex < 0) || (currentIndex >= characters.Count) || (characters.Count == 0))
+                throw new Exception("Index is out of range exception");
+            return new GameScreen(characters[currentIndex]);
+        }
     }
 }

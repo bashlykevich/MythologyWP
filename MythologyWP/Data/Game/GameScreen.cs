@@ -13,6 +13,7 @@ using MythologyWP.Data.DAO;
 using MythologyWP.Data.AppSettings;
 using System.Collections.Generic;
 using MythologyWP.Data.DAL;
+using MythologyWP.Helpers;
 
 namespace MythologyWP.Data.Game
 {
@@ -35,7 +36,12 @@ namespace MythologyWP.Data.Game
             for (int i = 1; i < versionsCount; i++)
             {
                 Random r = new Random();
-                string vers = characters[r.Next(characters.Count)].Name[MythAppSettings.LanguageID];
+                string vers = "";
+                do
+                {
+                    vers = characters[r.Next(characters.Count)].Name[MythAppSettings.LanguageID];
+                } while (versions.Contains(vers));
+
                 versions.Add(vers);
             }
             // shuffle all 4 versions            
@@ -43,22 +49,5 @@ namespace MythologyWP.Data.Game
             // set right
             rightIndex = versions.IndexOf(name);
         }
-    }
-
-    public static class Extensions
-    {
-        public static void Shuffle<T>(this IList<T> list)
-        {
-            Random rng = new Random();
-            int n = list.Count;
-            while (n > 1)
-            {
-                n--;
-                int k = rng.Next(n + 1);
-                T value = list[k];
-                list[k] = list[n];
-                list[n] = value;
-            }
-        }
-    }
+    }  
 }
