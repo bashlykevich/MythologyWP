@@ -19,18 +19,18 @@ namespace MythologyWP.Data.Game
     public class MythGame
     {
         private List<Character> characters = new List<Character>();
-        private int totalTime;
+        public int timeLeft;
         //private int[] nationsFilter = {-1};
         private int aRight;
         private int aWrong;
         private int currentIndex;
 
-        public MythGame(int _totalTime = 60 /* ,int[] _nationsFilter = null*/)
+        public MythGame(int _timeLeft = 60 /* ,int[] _nationsFilter = null*/)
         {
             currentIndex = -1;
             aRight = 0;
             aWrong = 0;
-            totalTime = _totalTime;
+            timeLeft = _timeLeft;
             /*if (_nationsFilter != null)
                 nationsFilter = _nationsFilter;*/
             // get all characters

@@ -11,23 +11,13 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace MythologyWP
+namespace MythologyWP.UI
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class GameResultPage : PhoneApplicationPage
     {
-        // Constructor
-        public MainPage()
+        public GameResultPage()
         {
             InitializeComponent();
-        }
-
-        private void btnStart_Click(object sender, RoutedEventArgs e)
-        {
-            StartGame();
-        }
-        void StartGame()
-        {
-            NavigationService.Navigate(new Uri(@"/UI/GameScreenPage.xaml", UriKind.Relative));
         }
     }
 }
