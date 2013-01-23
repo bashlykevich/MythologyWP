@@ -26,7 +26,7 @@ namespace MythologyWP.Data.DAL
             {
                 if (Database.DatabaseExists())
                 {
-                    //Database.DeleteDatabase();
+                    Database.DeleteDatabase();
                 }
                 if (!Database.DatabaseExists())
                 {                                                    
@@ -39,12 +39,18 @@ namespace MythologyWP.Data.DAL
         
         void FillDatabase()
         {
+            // languages
+            Language eng = new Language();
+            eng.Name = "English";
+            eng.IsCurrent = false;
+            Database.Languages.InsertOnSubmit(eng);
+
             // nations
-            Nation greekz = new Nation("Greek mythology");
+            Nation greekz = new Nation("Greek mythology", true);
             Database.Nations.InsertOnSubmit(greekz);
-            Nation scands = new Nation("Scandinavian (norse) mythology");
+            Nation scands = new Nation("Scandinavian (norse) mythology", true);
             Database.Nations.InsertOnSubmit(scands);
-            Nation egipts = new Nation("Egyptian mythology");
+            Nation egipts = new Nation("Egyptian mythology", true);
             Database.Nations.InsertOnSubmit(egipts);
             
             // characters            

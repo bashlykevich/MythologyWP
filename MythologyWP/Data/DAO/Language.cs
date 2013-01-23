@@ -29,5 +29,12 @@ namespace MythologyWP.Data.DAO
             get;
             set;
         }
+
+        [Column]
+        public bool IsCurrent
+        {
+            get;
+            set;
+        }
     }
 }

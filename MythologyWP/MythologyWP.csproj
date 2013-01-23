@@ -49,6 +49,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\..\WhatWhereWhenGame\WhatWhereWhenGame\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="system.data.linq" />
     <Reference Include="System.Windows" />
@@ -130,9 +133,9 @@
     <Resource Include="Images\GameScreenBanner.jpg" />
     <Resource Include="Images\correctanswer.png" />
     <Resource Include="Images\wronganswer.png" />
-    <Resource Include="Images\appbar.about.png" />
-    <Resource Include="Images\appbar.settings.png" />
-    <Resource Include="Images\appbar.eval.png" />
+    <Content Include="Images\appbar.about.png" />
+    <Content Include="Images\appbar.settings.png" />
+    <Content Include="Images\appbar.eval.png" />
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="todo.txt" />
   </ItemGroup>

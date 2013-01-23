@@ -43,7 +43,7 @@ namespace MythologyWP.UI
         {
             //Status("starting");
             timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Tick += OnTimerTick;
+            timer.Tick += OnTimerTick;            
             timer.Start();
             //Status("timer started");
             ShowNextPlot();            
@@ -87,7 +87,8 @@ namespace MythologyWP.UI
                 game.timeLeft--;
                 if (game.timeLeft == 0)
                 {
-                    edtTimer.Text = "...";
+                    timer.Stop();            
+                    edtTimer.Text = "00:00";
                 }
             }            
             else
@@ -142,6 +143,7 @@ namespace MythologyWP.UI
         }
         private void PhoneApplicationPage_BackKeyPress(object sender, System.ComponentModel.CancelEventArgs e)
         {
+            timer.Stop();
             NavigationService.Navigate(new Uri(@"/MainPage.xaml", UriKind.Relative));
         }        
     }

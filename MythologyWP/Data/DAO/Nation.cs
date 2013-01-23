@@ -21,9 +21,10 @@ namespace MythologyWP.Data.DAO
         {
             this.charactersRef = new EntitySet<Character>(this.OnCharacterAdded, this.OnCharacterRemoved);
         }
-        public Nation(string name)
+        public Nation(string name, bool active)
         {
             Name = name;
+            IsActive = active;
             this.charactersRef = new EntitySet<Character>(this.OnCharacterAdded, this.OnCharacterRemoved);
         }
 
@@ -36,6 +37,12 @@ namespace MythologyWP.Data.DAO
 
         [Column(CanBeNull = false)]
         public string Name
+        {
+            get;
+            set;
+        }
+        [Column]
+        public bool IsActive
         {
             get;
             set;

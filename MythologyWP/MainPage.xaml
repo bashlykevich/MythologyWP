@@ -26,33 +26,55 @@
                     Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" Text="Mythology Quiz for Windows Phone" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="Mythology" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>        
+        </StackPanel>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="100" />
-                <RowDefinition />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <Button Name="btnStart" Height="100"
                     Click="btnStart_Click" Margin="5" 
                     Grid.Row="0" >
                 <Button.Content>
-                   <TextBlock Text="Start" 
+                    <TextBlock Text="Start" 
                               FontSize="40"
-                              Margin="2,0,0,0" VerticalAlignment="Center" />                   
+                              Margin="2,0,0,0" VerticalAlignment="Center" />
                 </Button.Content>
-            </Button>                        
+            </Button>
+            <StackPanel Grid.Row="1"
+                       Margin="40,20,10,10">
+                <TextBlock>
+                Test your knowledge of world myths:
+                </TextBlock >
+                <TextBlock >
+                - Greek mythology
+                </TextBlock>
+                <TextBlock >
+                - Norse (Scandinavian) mythology
+                </TextBlock>
+                <TextBlock >
+                - Ancient Egyptian religion
+                </TextBlock>                
+            </StackPanel>
+            <StackPanel Name="spFooter"                        
+                        Grid.Row="3"
+                        Orientation="Vertical">
+                <Image Source="/MythologyWP;component/Images/GameScreenBanner.jpg" />
+            </StackPanel>
         </Grid>
     </Grid>
- 
+
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
             <shell:ApplicationBarIconButton IconUri="Images\appbar.settings.png" x:Name="btnSettings" Text="settings" Click="btnSettings_Click"/>
-            <shell:ApplicationBarIconButton IconUri="Images\appbar.eval.png"  x:Name="btnEval"  Text="eval" Click="btnEval_Click"/>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.eval.png"  x:Name="btnEval"  Text="rate" Click="btnEval_Click"/>
             <shell:ApplicationBarIconButton IconUri="Images\appbar.about.png" x:Name="btnAbout" Text="about" Click="btnAbout_Click"/>
             <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="settings" Click="btnSettings_Click"/>
-                <shell:ApplicationBarMenuItem Text="eval" Click="btnEval_Click"/>
+                <shell:ApplicationBarMenuItem Text="app settings" Click="btnSettings_Click"/>
+                <shell:ApplicationBarMenuItem Text="rate this app" Click="btnEval_Click"/>
                 <shell:ApplicationBarMenuItem Text="about" Click="btnAbout_Click"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
