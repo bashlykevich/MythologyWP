@@ -34,15 +34,17 @@
                         Name="spTimer">
                 <TextBlock Name="edtTimer" />
             </StackPanel>
+            <TextBlock Name="edtNation"                        
+                       Text="Greekz"/>
         </StackPanel>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>                
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="70" />
-                <RowDefinition Height="70" />
-                <RowDefinition Height="70" />
-                <RowDefinition Height="70" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
                 <RowDefinition Height="150"/>
             </Grid.RowDefinitions>
 

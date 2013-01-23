@@ -42,6 +42,10 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200" />
                 <ColumnDefinition />
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Row="0"
                        Grid.Column="0"
@@ -55,20 +59,84 @@
 
             <TextBlock Grid.Row="0"
                        Grid.Column="1"
-                       Name="edtRight"
+                       HorizontalAlignment="Center"
+                       Name="edtRight1"
+                       Text=""/>
+            <TextBlock Grid.Row="0"
+                       Grid.Column="2"
+                       Name="edtRight2"
+                       HorizontalAlignment="Center"
+                       Text="x"/>
+            <TextBlock Grid.Row="0"
+                       Grid.Column="3"
+                       HorizontalAlignment="Center"
+                       Name="edtRight3"
+                       Text=""/>
+            <TextBlock Grid.Row="0"
+                       Grid.Column="4"
+                       HorizontalAlignment="Center"
+                       Name="edtRight4"
+                       Text="="/>
+            <TextBlock Grid.Row="0"
+                       Grid.Column="5"
+                       HorizontalAlignment="Center"
+                       Name="edtRight5"
                        Text=""/>
             <TextBlock Grid.Row="1"
                        Grid.Column="1"
-                       Name="edtWrong"
+                       HorizontalAlignment="Center"
+                       Name="edtWrong1"
+                       Text=""/>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="2"
+                       Name="edtWrong2"
+                       HorizontalAlignment="Center"
+                       Text="x"/>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="3"
+                       HorizontalAlignment="Center"
+                       Name="edtWrong3"
+                       Text=""/>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="4"
+                       HorizontalAlignment="Center"
+                       Name="edtWrong4"
+                       Text="="/>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="5"
+                       HorizontalAlignment="Center"
+                       Name="edtWrong5"
                        Text=""/>
             <TextBlock Grid.Row="2"
                        Grid.Column="1"
-                       Name="edtTotal"
+                       HorizontalAlignment="Center"
+                       Name="edtTotal1"
                        Text=""/>
+            <TextBlock Grid.Row="2"
+                       Grid.Column="2"
+                       Name="edtTotal2"                       
+                       HorizontalAlignment="Center"
+                       Text="-"/>
+            <TextBlock Grid.Row="2"
+                       Grid.Column="3"
+                       HorizontalAlignment="Center"
+                       Name="edtTotal3"
+                       Text=""/>
+            <TextBlock Grid.Row="2"
+                       Grid.Column="4"
+                       HorizontalAlignment="Center"
+                       Name="edtTotal4"
+                       Text="="/>
+            <TextBlock Grid.Row="2"
+                       Grid.Column="5"
+                       HorizontalAlignment="Center"
+                       Name="edtTotal5"
+                       Text=""/>
+            
             <Button Name="btnMenu"
                     Grid.Row="4"
                     Grid.Column="0"
-                    Grid.ColumnSpan="2"
+                    Grid.ColumnSpan="5"
                     Content="Menu" Click="btnMenu_Click" />
                        
         </Grid>

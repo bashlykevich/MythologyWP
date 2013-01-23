@@ -69,6 +69,7 @@
     <Compile Include="Data\DAO\Character.cs" />
     <Compile Include="Data\DAO\Language.cs" />
     <Compile Include="Data\DAO\Nation.cs" />
+    <Compile Include="Data\DAO\Record.cs" />
     <Compile Include="Data\Game\GameScreen.cs" />
     <Compile Include="Data\Game\MythGame.cs" />
     <Compile Include="Helpers\ListExtensions.cs" />

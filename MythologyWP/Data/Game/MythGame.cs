@@ -25,6 +25,13 @@ namespace MythologyWP.Data.Game
         public int aWrong;
         private int currentIndex;
 
+        public string Status        
+        {
+            get
+            {
+                return aRight + "/" + currentIndex + "/" + characters.Count;
+            }
+        }
         public MythGame(int _timeLeft = 59 /* ,int[] _nationsFilter = null*/)
         {
             currentIndex = 0;
@@ -37,12 +44,15 @@ namespace MythologyWP.Data.Game
             characters = (from fd in MythDB.Instance.Database.Characters select fd).ToList();
             characters.Shuffle();            
         }
-        public bool IsEndOfGame()
+        public bool IsEndOfGame
         {
-            if (currentIndex >= characters.Count)
-                return true;
-            else
-                return false;
+            get
+            {
+                if (currentIndex >= characters.Count)
+                    return true;
+                else
+                    return false;
+            }
         }
         public GameScreen NextRound()
         {

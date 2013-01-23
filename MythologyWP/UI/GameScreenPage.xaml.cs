@@ -20,33 +20,37 @@ namespace MythologyWP.UI
     public partial class GameScreenPage : PhoneApplicationPage
     {
 
-        MythGame game = new MythGame();
+        MythGame game = new MythGame(10);
         private DispatcherTimer timer = new DispatcherTimer();
         Button[] btnVersions = new Button[4];
 
         public GameScreenPage()
         {
             InitializeComponent();
+
             btnVersions[0] = btnVersion0;
             btnVersions[1] = btnVersion1;
             btnVersions[2] = btnVersion2;
             btnVersions[3] = btnVersion3;
             foreach (Button btn in btnVersions)
                 btn.Click += UserClickAnswer;
+            
             edtTimer.Text = GetTimeString(game.timeLeft+1);
+            
             StartGame();
         }
         void StartGame()
         {
+            Status("starting");
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += OnTimerTick;
             timer.Start();
-
+            Status("timer started");
             ShowNextPlot();            
         }
         void ShowNextPlot()
-        {
-            if (game.IsEndOfGame())
+        {            
+            if (game.IsEndOfGame)
             {
                 StopGame();
             }
@@ -54,6 +58,7 @@ namespace MythologyWP.UI
             {
                 GameScreen gs = game.NextRound();
                 edtPlot.Text = gs.plot;
+                edtNation.Text = gs.nation;
 
                 for (int i = 0; i < 4; i++)
                 {                    
@@ -64,9 +69,10 @@ namespace MythologyWP.UI
                 }
                 btnVersions[gs.rightIndex].Tag = "+";
             }
+            Status(game.Status + " EOG:" + game.IsEndOfGame);
         }
         void StopGame()
-        {
+        {            
             timer.Stop();            
             // navigate to result page      
             string uri = @"/UI/GameResultPage.xaml?right=" + game.aRight + "&wrong=" + game.aWrong;      
@@ -130,7 +136,10 @@ namespace MythologyWP.UI
                 btn.Tag = ".";
             }
         }
-
+        void Status(string StatusString)
+        {
+            edtNation.Text += " " + StatusString;
+        }
         private void PhoneApplicationPage_BackKeyPress(object sender, System.ComponentModel.CancelEventArgs e)
         {
             NavigationService.Navigate(new Uri(@"/MainPage.xaml", UriKind.Relative));

@@ -1,4 +1,5 @@
-﻿Main page design
+﻿Records table
+Main page design
 About page
 Settings page
 i18n

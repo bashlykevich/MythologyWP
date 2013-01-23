@@ -41,9 +41,17 @@ namespace MythologyWP.UI
             int aRight = Int32.Parse(right);
             int aWrong = Int32.Parse(wrong);
 
-            edtRight.Text = "  3 x " + ToStr(aRight) + " =  " + ToStr(3 * aRight);
-            edtWrong.Text = "  2 x " + ToStr(aWrong) + " = " + ToStr(2 * aWrong);
-            edtTotal.Text = ToStr(3 * aRight) + " - " + ToStr(2 * aWrong) + " = " + (3 * aRight - 2 * aWrong);
+            edtRight1.Text = "3";            
+            edtRight3.Text = ToStr(aRight);
+            edtRight5.Text = ToStr(3 * aRight);
+
+            edtWrong1.Text = "2";            
+            edtWrong3.Text = ToStr(aWrong);
+            edtWrong5.Text = ToStr(2 * aWrong);
+
+            edtTotal1.Text = ToStr(3 * aRight);            
+            edtTotal3.Text = ToStr(2 * aWrong);
+            edtTotal5.Text = ToStr(3 * aRight - 2 * aWrong);            
         }
 
         string ToStr(int i)

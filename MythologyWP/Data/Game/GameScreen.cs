@@ -22,6 +22,7 @@ namespace MythologyWP.Data.Game
         public string plot;
         public List<string> versions = new List<string>();
         public int rightIndex;
+        public string nation;
 
         public GameScreen(Character character)
         {
@@ -29,6 +30,8 @@ namespace MythologyWP.Data.Game
             string name = character.Name;//[MythAppSettings.LanguageID];
             int versionsCount = 4;
             plot = descr;
+            nation = character.Nation.Name;
+
             versions.Add(name);
 
             // get 3 random chars as versions            
