@@ -27,9 +27,36 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"></Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0"
+                        Margin="20"
+                        Orientation="Vertical">
+                <TextBlock Name="edtAboutText"                       
+                       TextWrapping="Wrap"
+                       Text="Mythology Quiz for Windows Phone (c)"/>
+                <TextBlock Name="edtAuthor"
+                       TextWrapping="Wrap"
+                       Text="by Hairahana Art Studio 2013"/>
+                <TextBlock Name="edtContact"
+                       TextWrapping="Wrap"
+                           Margin="0,30,0,0"
+                       Text="Please contact us: bashlykevich@gmail.com"/>
+            </StackPanel>
+            <Button Name="btnRate"
+                        Grid.Row="1"
+                        Content="Rate this app"
+                        Height="80"
+                        Margin="20,5,20,5"
+                        HorizontalAlignment="Stretch" 
+                    Click="btnRate_Click" />
+
+        </Grid>
     </Grid>
- 
+
     <!--Sample code showing usage of ApplicationBar-->
     <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">

@@ -1,4 +1,3 @@
-﻿About page: content
-Records table
+﻿Records table
 App icon
 i18n

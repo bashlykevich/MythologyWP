@@ -68,7 +68,6 @@ namespace MythologyWP
         {
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
-
         }
     }
 }
