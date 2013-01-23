@@ -10,6 +10,9 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using MythologyWP.Data.DAO;
+using MythologyWP.Data.DAL;
+using MythologyWP.Helpers;
 
 namespace MythologyWP.UI
 {
@@ -17,7 +20,7 @@ namespace MythologyWP.UI
     {
         public GameResultPage()
         {
-            InitializeComponent();           
+            InitializeComponent();            
         }
 
         private void PhoneApplicationPage_BackKeyPress(object sender, System.ComponentModel.CancelEventArgs e)
@@ -38,8 +41,10 @@ namespace MythologyWP.UI
         {
             string right = NavigationContext.QueryString["right"];
             string wrong = NavigationContext.QueryString["wrong"];
+            string nations = NavigationContext.QueryString["nations"];
             int aRight = Int32.Parse(right);
             int aWrong = Int32.Parse(wrong);
+            int Total = 3 * aRight - 2 * aWrong;
 
             edtRight1.Text = "3";            
             edtRight3.Text = ToStr(aRight);
@@ -51,7 +56,13 @@ namespace MythologyWP.UI
 
             edtTotal1.Text = ToStr(3 * aRight);            
             edtTotal3.Text = ToStr(2 * aWrong);
-            edtTotal5.Text = ToStr(3 * aRight - 2 * aWrong);            
+            edtTotal5.Text = ToStr(Total);
+
+            if (AddRecord(Total, nations))
+            {
+                // Congratulations! You'v got to top-5!
+            }
+            LoadRecords();
         }
 
         string ToStr(int i)
@@ -64,5 +75,42 @@ namespace MythologyWP.UI
                     s = " " + i;
             return s;
         }
+        bool AddRecord(int total, string nations)
+        {            
+            List<Record> records = MythDB.Instance.Database.Records.OrderBy(r => r.Points).ToList();
+            if (records.Count < 5)
+            {
+                // just add new record
+                Record r = new Record();
+                r.Nations = nations;
+                r.Points = total;
+                r.RecordDate = DateTime.Now;
+                MythDB.Instance.Database.Records.InsertOnSubmit(r);
+                MythDB.Instance.Database.SubmitChanges();
+                return true;
+            }
+            else if(total > records[0].Points)
+            {
+                records[0].Points = total;
+                records[0].RecordDate = DateTime.Now;
+                records[0].Nations = nations;
+                MythDB.Instance.Database.SubmitChanges();
+                return true;
+            }
+            return false;
+        }
+        void LoadRecords()
+        {
+            int recordsCount = 0;
+            List<Record> records = MythDB.Instance.Database.Records.OrderByDescending(r => r.Points).ToList();
+            foreach (Record r in records)
+            {
+                spRecords.Children.Add(Helper.GenerateRecordString(++recordsCount, r.Points, r.RecordDate.ToString("dd/MM/yyyy HH:mm:ss"), r.Nations));
+            }
+            while (recordsCount < 5)
+            {
+                spRecords.Children.Add(Helper.GenerateRecordString(++recordsCount, 0, "--/--/---- --:--:--", "- - -"));
+            }
+        }      
     }
 }

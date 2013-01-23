@@ -20,7 +20,7 @@ namespace MythologyWP.UI
     public partial class GameScreenPage : PhoneApplicationPage
     {
 
-        MythGame game = new MythGame();
+        MythGame game = new MythGame(20);
         private DispatcherTimer timer = new DispatcherTimer();
         Button[] btnVersions = new Button[4];
 
@@ -75,7 +75,7 @@ namespace MythologyWP.UI
         {            
             timer.Stop();            
             // navigate to result page      
-            string uri = @"/UI/GameResultPage.xaml?right=" + game.aRight + "&wrong=" + game.aWrong;      
+            string uri = @"/UI/GameResultPage.xaml?right=" + game.aRight + "&wrong=" + game.aWrong + "&nations=all";      
             NavigationService.Navigate(new Uri(uri, UriKind.Relative));
 
         }
@@ -86,8 +86,7 @@ namespace MythologyWP.UI
                 edtTimer.Text = GetTimeString(game.timeLeft);
                 game.timeLeft--;
                 if (game.timeLeft == 0)
-                {
-                    timer.Stop();            
+                {                    
                     edtTimer.Text = "00:00";
                 }
             }            

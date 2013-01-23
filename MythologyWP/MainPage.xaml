@@ -32,7 +32,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="100" />
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />                
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <Button Name="btnStart" Height="100"
@@ -45,19 +45,18 @@
                 </Button.Content>
             </Button>
             <StackPanel Grid.Row="1"
-                       Margin="40,20,10,10">
-                <TextBlock>
-                Test your knowledge of world myths:
-                </TextBlock >
-                <TextBlock >
-                - Greek mythology
-                </TextBlock>
-                <TextBlock >
-                - Norse (Scandinavian) mythology
-                </TextBlock>
-                <TextBlock >
-                - Ancient Egyptian religion
-                </TextBlock>                
+                       Margin="40,10,10,10">
+                <TextBlock HorizontalAlignment="Center">
+                Test your knowledge of world myths!
+                </TextBlock >                
+            </StackPanel>
+            <StackPanel Name="spRecords"
+                        Grid.Row="2"
+                        Margin="30,10,10,10"
+                        Orientation="Vertical">
+                <TextBlock Name="edtRecordsTitle"                           
+                           HorizontalAlignment="Stretch"
+                           Text="Top 5 Records:"/>
             </StackPanel>
             <StackPanel Name="spFooter"                        
                         Grid.Row="3"

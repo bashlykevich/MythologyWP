@@ -26,7 +26,7 @@ namespace MythologyWP.Data.DAL
             {
                 if (Database.DatabaseExists())
                 {
-                    Database.DeleteDatabase();
+                    //Database.DeleteDatabase();
                 }
                 if (!Database.DatabaseExists())
                 {                                                    

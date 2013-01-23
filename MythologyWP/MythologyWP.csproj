@@ -75,6 +75,7 @@
     <Compile Include="Data\DAO\Record.cs" />
     <Compile Include="Data\Game\GameScreen.cs" />
     <Compile Include="Data\Game\MythGame.cs" />
+    <Compile Include="Helpers\Helper.cs" />
     <Compile Include="Helpers\ListExtensions.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

@@ -1,3 +1,5 @@
-﻿Records table
-App icon
-i18n
+﻿App icon
+Add data
+Truncate long plots
+Interface i18n
+Content i18n

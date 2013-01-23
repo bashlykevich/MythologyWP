@@ -11,6 +11,9 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Tasks;
+using MythologyWP.Data.DAL;
+using MythologyWP.Data.DAO;
+using MythologyWP.Helpers;
 
 namespace MythologyWP
 {
@@ -20,6 +23,7 @@ namespace MythologyWP
         public MainPage()
         {
             InitializeComponent();
+            LoadRecords();
         }
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
@@ -69,5 +73,18 @@ namespace MythologyWP
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
         }
+        void LoadRecords()
+        {
+            int recordsCount = 0;
+            List<Record> records = MythDB.Instance.Database.Records.OrderByDescending(r => r.Points).ToList();
+            foreach (Record r in records)
+            {
+                spRecords.Children.Add(Helper.GenerateRecordString(++recordsCount, r.Points, r.RecordDate.ToString("dd/MM/yyyy HH:mm:ss"), r.Nations));
+            }
+            while (recordsCount < 5)
+            {
+                spRecords.Children.Add(Helper.GenerateRecordString(++recordsCount, 0, "--/--/---- --:--:--", "- - -"));
+            }
+        }     
     }
 }
