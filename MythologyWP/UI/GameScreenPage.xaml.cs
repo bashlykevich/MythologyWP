@@ -20,7 +20,7 @@ namespace MythologyWP.UI
     public partial class GameScreenPage : PhoneApplicationPage
     {
 
-        MythGame game = new MythGame(10);
+        MythGame game = new MythGame();
         private DispatcherTimer timer = new DispatcherTimer();
         Button[] btnVersions = new Button[4];
 
@@ -41,11 +41,11 @@ namespace MythologyWP.UI
         }
         void StartGame()
         {
-            Status("starting");
+            //Status("starting");
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += OnTimerTick;
             timer.Start();
-            Status("timer started");
+            //Status("timer started");
             ShowNextPlot();            
         }
         void ShowNextPlot()
@@ -69,7 +69,7 @@ namespace MythologyWP.UI
                 }
                 btnVersions[gs.rightIndex].Tag = "+";
             }
-            Status(game.Status + " EOG:" + game.IsEndOfGame);
+            //Status(game.Status + " EOG:" + game.IsEndOfGame);
         }
         void StopGame()
         {            

@@ -77,11 +77,17 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\GameResultPage.xaml.cs">
       <DependentUpon>GameResultPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\GameScreenPage.xaml.cs">
       <DependentUpon>GameScreenPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -93,11 +99,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UI\AboutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\GameResultPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UI\GameScreenPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\SettingsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -116,6 +130,9 @@
     <Resource Include="Images\GameScreenBanner.jpg" />
     <Resource Include="Images\correctanswer.png" />
     <Resource Include="Images\wronganswer.png" />
+    <Resource Include="Images\appbar.about.png" />
+    <Resource Include="Images\appbar.settings.png" />
+    <Resource Include="Images\appbar.eval.png" />
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="todo.txt" />
   </ItemGroup>

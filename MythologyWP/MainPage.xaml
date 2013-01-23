@@ -6,7 +6,7 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -22,36 +22,40 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" 
+                    Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" Text="Mythology Quiz for Windows Phone" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="Mythology" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-
+        </StackPanel>        
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
-                <RowDefinition/>
+                <RowDefinition Height="100" />
+                <RowDefinition />
             </Grid.RowDefinitions>
             <Button Name="btnStart" Height="100"
-                    Click="btnStart_Click" Margin="0,1,0,506" Grid.RowSpan="2" >
+                    Click="btnStart_Click" Margin="5" 
+                    Grid.Row="0" >
                 <Button.Content>
-                   <TextBlock Text="Start" Margin="2,0,0,0" VerticalAlignment="Center" />                   
+                   <TextBlock Text="Start" 
+                              FontSize="40"
+                              Margin="2,0,0,0" VerticalAlignment="Center" />                   
                 </Button.Content>
             </Button>                        
         </Grid>
     </Grid>
  
-    <!--Sample code showing usage of ApplicationBar-->
-    <!--<phone:PhoneApplicationPage.ApplicationBar>
+    <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.settings.png" x:Name="btnSettings" Text="settings" Click="btnSettings_Click"/>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.eval.png"  x:Name="btnEval"  Text="eval" Click="btnEval_Click"/>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.about.png" x:Name="btnAbout" Text="about" Click="btnAbout_Click"/>
             <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
-                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+                <shell:ApplicationBarMenuItem Text="settings" Click="btnSettings_Click"/>
+                <shell:ApplicationBarMenuItem Text="eval" Click="btnEval_Click"/>
+                <shell:ApplicationBarMenuItem Text="about" Click="btnAbout_Click"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>-->
+    </phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>

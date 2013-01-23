@@ -1,5 +1,3 @@
 ﻿Records table
-Main page design
-About page
-Settings page
+App icon
 i18n
