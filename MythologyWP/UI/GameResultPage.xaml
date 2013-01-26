@@ -141,7 +141,7 @@
                         Orientation="Vertical">
                 <TextBlock Name="edtRecordsTitle"                           
                            HorizontalAlignment="Stretch"
-                           Text="Top 5 Records:"/>
+                           Text="Records:"/>
             </StackPanel>
             
             <Button Name="btnMenu"

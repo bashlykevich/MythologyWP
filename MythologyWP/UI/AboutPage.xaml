@@ -37,14 +37,15 @@
                         Orientation="Vertical">
                 <TextBlock Name="edtAboutText"                       
                        TextWrapping="Wrap"
-                       Text="Mythology Quiz for Windows Phone (c)"/>
-                <TextBlock Name="edtAuthor"
+                       Text="Myth Quiz (c) by Leibonik Art Studio, 2013"/>
+                <TextBlock Name="edtWait"
                        TextWrapping="Wrap"
-                       Text="by Hairahana Art Studio 2013"/>
+                       Margin="0,30,0,0"
+                       Text="Waiting for your propositions -"/>
                 <TextBlock Name="edtContact"
                        TextWrapping="Wrap"
-                           Margin="0,30,0,0"
-                       Text="Please contact us: bashlykevich@gmail.com"/>
+                           Margin="50,0,0,0"
+                       Text="contact us: bashlykevich@gmail.com"/>
             </StackPanel>
             <Button Name="btnRate"
                         Grid.Row="1"
