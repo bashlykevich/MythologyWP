@@ -37,7 +37,7 @@ namespace MythologyWP.UI
                 sp.VerticalAlignment = System.Windows.VerticalAlignment.Center;
 
                 TextBlock tb = new TextBlock();
-                tb.Text = n.Name + " [" + n.ShortName + "]";
+                tb.Text = "[" + n.ShortName + "] " + n.Name;
                 tb.FontSize = 20;
                 tb.Width = 350;                
                 tb.VerticalAlignment = System.Windows.VerticalAlignment.Center;                

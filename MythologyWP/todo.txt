@@ -1,5 +1,4 @@
-﻿App icon
-Add data
+﻿Add data
 Truncate long plots
 Interface i18n
 Content i18n
