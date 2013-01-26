@@ -19,8 +19,7 @@ namespace MythologyWP.Data.Game
     public class MythGame
     {
         private List<Character> characters = new List<Character>();
-        public int timeLeft;
-        //private int[] nationsFilter = {-1};
+        public int timeLeft;        
         public int aRight;
         public int aWrong;
         private int currentIndex;
@@ -32,16 +31,14 @@ namespace MythologyWP.Data.Game
                 return aRight + "/" + currentIndex + "/" + characters.Count;
             }
         }
-        public MythGame(int _timeLeft = 59 /* ,int[] _nationsFilter = null*/)
+        public MythGame(int _timeLeft = 59)
         {
             currentIndex = 0;
             aRight = 0;
             aWrong = 0;
-            timeLeft = _timeLeft;
-            /*if (_nationsFilter != null)
-                nationsFilter = _nationsFilter;*/
-            // get all characters
-            characters = (from fd in MythDB.Instance.Database.Characters select fd).ToList();
+            timeLeft = _timeLeft;            
+            // get all characters with nations filter
+            characters = (from fd in MythDB.Instance.Database.Characters where fd.Nation.IsActive select fd).ToList();
             characters.Shuffle();            
         }
         public bool IsEndOfGame

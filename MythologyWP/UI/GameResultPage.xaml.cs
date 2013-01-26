@@ -40,8 +40,7 @@ namespace MythologyWP.UI
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
             string right = NavigationContext.QueryString["right"];
-            string wrong = NavigationContext.QueryString["wrong"];
-            string nations = NavigationContext.QueryString["nations"];
+            string wrong = NavigationContext.QueryString["wrong"];           
             int aRight = Int32.Parse(right);
             int aWrong = Int32.Parse(wrong);
             int Total = 3 * aRight - 2 * aWrong;
@@ -58,7 +57,7 @@ namespace MythologyWP.UI
             edtTotal3.Text = ToStr(2 * aWrong);
             edtTotal5.Text = ToStr(Total);
 
-            if (AddRecord(Total, nations))
+            if (AddRecord(Total))
             {
                 // Congratulations! You'v got to top-5!
             }
@@ -75,13 +74,29 @@ namespace MythologyWP.UI
                     s = " " + i;
             return s;
         }
-        bool AddRecord(int total, string nations)
+        bool AddRecord(int total)
         {            
             List<Record> records = MythDB.Instance.Database.Records.OrderBy(r => r.Points).ToList();
+            // get nations
+            string nations = "";
+            List<Nation> nlist = MythDB.Instance.Database.Nations.Where(n => n.IsActive).ToList();
+            if(nlist.Count == MythDB.Instance.Database.Nations.Count())
+            {
+                nations = "all";
+            } else
+            {
+                foreach(Nation n in nlist)
+                {
+                    nations += n.ShortName + ";";
+                }
+                nations = nations.Substring(0, nations.Length - 1);
+            }
+
+
             if (records.Count < 5)
             {
                 // just add new record
-                Record r = new Record();
+                Record r = new Record();                
                 r.Nations = nations;
                 r.Points = total;
                 r.RecordDate = DateTime.Now;

@@ -75,7 +75,7 @@ namespace MythologyWP.UI
         {            
             timer.Stop();            
             // navigate to result page      
-            string uri = @"/UI/GameResultPage.xaml?right=" + game.aRight + "&wrong=" + game.aWrong + "&nations=all";      
+            string uri = @"/UI/GameResultPage.xaml?right=" + game.aRight + "&wrong=" + game.aWrong;      
             NavigationService.Navigate(new Uri(uri, UriKind.Relative));
 
         }
