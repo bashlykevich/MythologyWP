@@ -34,8 +34,13 @@
                         Name="spTimer">
                 <TextBlock Name="edtTimer" />
             </StackPanel>
-            <TextBlock Name="edtNation"                        
+            <Grid Background="Yellow" HorizontalAlignment="Left">
+            <TextBlock Name="edtNation"
+                       Margin="5,1,5,1"
+                       Foreground="Black"
+                       FontWeight="Bold"                   
                        Text="Greekz"/>
+            </Grid>
         </StackPanel>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
