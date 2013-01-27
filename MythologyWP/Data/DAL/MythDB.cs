@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using System.Windows;
 using System.Windows.Controls;
@@ -14,19 +15,28 @@ namespace MythologyWP.Data.DAL
 {
     public class MythDB
     {
-         private static readonly MythDB instance = new MythDB();
+        int ActualDatabaseVersion = 1;
+
+        private static readonly MythDB instance = new MythDB();
+        
         public static MythDB Instance
         {
             get { return instance; }
         }
         protected MythDB() 
         {
+            
             string ConnectionString = "isostore:/mythquiz.sdf";
             Database = new MythDataContext(ConnectionString);
             {
                 if (Database.DatabaseExists())
                 {
-                    //Database.DeleteDatabase();
+                    // check for update                    
+                    int DeployedDatabaseVersion = Database.DatabaseInfo.FirstOrDefault().Version;
+                    if (DeployedDatabaseVersion < ActualDatabaseVersion)
+                    {
+                        Database.DeleteDatabase();
+                    }
                 }
                 if (!Database.DatabaseExists())
                 {                                                    
@@ -39,6 +49,11 @@ namespace MythologyWP.Data.DAL
         
         void FillDatabase()
         {
+            // db version
+            DatabaseInfo v = new DatabaseInfo();
+            v.Version = this.ActualDatabaseVersion;
+            Database.DatabaseInfo.InsertOnSubmit(v);
+
             // languages
             Language eng = new Language();
             eng.Name = "English";

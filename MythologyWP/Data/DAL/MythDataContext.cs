@@ -48,6 +48,13 @@ namespace MythologyWP.Data.DAL
                 return this.GetTable<Record>();
             }
         }
+        public Table<DatabaseInfo> DatabaseInfo
+        {
+            get
+            {
+                return this.GetTable<DatabaseInfo>();
+            }
+        }
 
     }
 }
