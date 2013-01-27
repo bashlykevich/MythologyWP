@@ -1,4 +1,4 @@
-﻿Add data
+﻿Database Info table (db-version)
 Truncate long plots
 Interface i18n
 Content i18n
