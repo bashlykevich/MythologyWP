@@ -30,5 +30,19 @@ namespace MythologyWP.UI
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
         }
+        void ComposeEmail()
+        {
+            EmailComposeTask emailComposeTask = new EmailComposeTask();
+
+            emailComposeTask.Subject = "Myth Quiz";
+            emailComposeTask.Body = "Hello!";
+            emailComposeTask.To = "bashlykevich@gmail.com";
+            
+            emailComposeTask.Show();
+        }
+        private void edtContactEmail_Click(object sender, RoutedEventArgs e)
+        {
+            ComposeEmail();
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿email as link to email client
-Truncate long plots
+﻿Truncate long plots
 Interface i18n (resources files)
 Content i18n (separate db for each language)
+Create email on myth-quiz-dev@live.com

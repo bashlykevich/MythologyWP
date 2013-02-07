@@ -42,10 +42,16 @@
                        TextWrapping="Wrap"
                        Margin="0,30,0,0"
                        Text="Waiting for your propositions -"/>
+                <StackPanel Orientation="Horizontal">
                 <TextBlock Name="edtContact"
-                       TextWrapping="Wrap"
-                           Margin="50,0,0,0"
-                       Text="contact us: bashlykevich@gmail.com"/>
+                           VerticalAlignment="Center"
+                           Margin="40,0,0,0"
+                       Text="contact us: "/>
+                    <HyperlinkButton Name="edtContactEmail"                       
+                                     Margin="0,0,0,0"
+                                     Click="edtContactEmail_Click"
+                                     Content="bashlykevich@gmail.com"/>
+                </StackPanel>
             </StackPanel>
             <Button Name="btnRate"
                         Grid.Row="1"
