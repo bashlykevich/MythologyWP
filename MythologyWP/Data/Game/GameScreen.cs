@@ -35,7 +35,7 @@ namespace MythologyWP.Data.Game
             versions.Add(name);
 
             // get 3 random chars as versions            
-            List<Character> characters = (from fd in MythDB.Instance.Database.Characters select fd).ToList();
+            List<Character> characters = (from fd in MythDB.Instance.Database.Characters where fd.Nation.IsActive select fd).ToList();            
             for (int i = 1; i < versionsCount; i++)
             {
                 Random r = new Random();
