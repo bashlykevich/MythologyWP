@@ -25,9 +25,11 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" 
-                       Text="Mythology Quiz for Windows Phone" 
+                       Text="{Binding Resources.ApplicationTitle, Source={StaticResource Strings}}"
                        Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Results" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="PageTitle" 
+                       Text="{Binding Resources.Results_PageTitle, Source={StaticResource Strings}}"
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
@@ -50,13 +52,16 @@
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Row="0"
                        Grid.Column="0"
-                       Text="Right answers:"/>
+                       Text="{Binding Resources.Results_RightTitle, Source={StaticResource Strings}}"
+                       Name="RightTitle"/>
             <TextBlock Grid.Row="1"
                        Grid.Column="0"
-                       Text="Wrong answers:"/>
+                       Text="{Binding Resources.Results_WrongTitle, Source={StaticResource Strings}}"
+                       Name="WrongTitle"/>
             <TextBlock Grid.Row="2"
                        Grid.Column="0"
-                       Text="Total:"/>
+                       Text="{Binding Resources.Results_TotalTitle, Source={StaticResource Strings}}"
+                       Name="TotalTitle"/>
 
             <TextBlock Grid.Row="0"
                        Grid.Column="1"
@@ -139,16 +144,16 @@
                         Grid.ColumnSpan="6"
                         Margin="30,40,10,10"
                         Orientation="Vertical">
-                <TextBlock Name="edtRecordsTitle"                           
-                           HorizontalAlignment="Stretch"
-                           Text="Records:"/>
+                <TextBlock Name="RecordsTitle"                           
+                           HorizontalAlignment="Stretch"/>
             </StackPanel>
             
             <Button Name="btnMenu"
                     Grid.Row="5"
                     Grid.Column="0"
                     Grid.ColumnSpan="6"
-                    Content="Menu" Click="btnMenu_Click" />
+                    Content="{Binding Resources.Results_MenuTitle, Source={StaticResource Strings}}"
+                    Click="btnMenu_Click" />
                        
         </Grid>
     </Grid>

@@ -22,8 +22,12 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Mythology Quiz for Windows Phone" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="About" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle" 
+                       Text="{Binding Resources.ApplicationTitle, Source={StaticResource Strings}}"
+                       Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" 
+                       Text="{Binding Resources.About_PageTitle, Source={StaticResource Strings}}"
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
@@ -35,29 +39,29 @@
             <StackPanel Grid.Row="0"
                         Margin="20"
                         Orientation="Vertical">
-                <TextBlock Name="edtAboutText"                       
+                <TextBlock Name="AboutTitle"
+                           Text="{Binding Resources.About_AboutTitle, Source={StaticResource Strings}}"
+                       TextWrapping="Wrap"/>
+                <TextBlock Name="WaitTitle"
                        TextWrapping="Wrap"
-                       Text="Myth Quiz (c) by Leibonik Art Studio, 2013"/>
-                <TextBlock Name="edtWait"
-                       TextWrapping="Wrap"
-                       Margin="0,30,0,0"
-                       Text="Waiting for your propositions -"/>
+                           Text="{Binding Resources.About_WaitTitle, Source={StaticResource Strings}}"
+                       Margin="0,30,0,0"/>
                 <StackPanel Orientation="Horizontal">
-                <TextBlock Name="edtContact"
+                <TextBlock Name="ContactTitle"
+                           Text="{Binding Resources.About_ContactTitle, Source={StaticResource Strings}}"
                            VerticalAlignment="Center"
-                           Margin="40,0,0,0"
-                       Text="contact us: "/>
+                           Margin="20,0,0,0"/>
                     <HyperlinkButton Name="edtContactEmail"                       
-                                     Margin="0,0,0,0"
+                                     Margin="5,0,0,0"
                                      Click="edtContactEmail_Click"
                                      Content="bashlykevich@gmail.com"/>
                 </StackPanel>
             </StackPanel>
             <Button Name="btnRate"
                         Grid.Row="1"
-                        Content="Rate this app"
                         Height="80"
                         Margin="20,5,20,5"
+                        Content="{Binding Resources.About_RateTitle, Source={StaticResource Strings}}"
                         HorizontalAlignment="Stretch" 
                     Click="btnRate_Click" />
 

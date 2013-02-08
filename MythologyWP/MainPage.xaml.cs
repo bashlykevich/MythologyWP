@@ -14,6 +14,10 @@ using Microsoft.Phone.Tasks;
 using MythologyWP.Data.DAL;
 using MythologyWP.Data.DAO;
 using MythologyWP.Helpers;
+using System.Reflection;
+using System.Resources;
+using MythologyWP.i18n;
+using Microsoft.Phone.Shell;
 
 namespace MythologyWP
 {
@@ -21,11 +25,11 @@ namespace MythologyWP
     {
         // Constructor
         public MainPage()
-        {
+        {           
             InitializeComponent();
             LoadRecords();
         }
-
+        
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
             StartGame();
@@ -85,6 +89,16 @@ namespace MythologyWP
             {
                 spRecords.Children.Add(Helper.GenerateRecordString(++recordsCount, 0, "--/--/---- --:--:--", "- - -"));
             }
+        }
+        void LocalizingAppBars()
+        {
+            ((ApplicationBarIconButton)ApplicationBar.Buttons[0]).Text = AppResources.MainPage_AppBarSettings;
+            ((ApplicationBarIconButton)ApplicationBar.Buttons[1]).Text = AppResources.MainPage_AppBarEval;
+            ((ApplicationBarIconButton)ApplicationBar.Buttons[2]).Text = AppResources.MainPage_AppBarAbout;
+        }
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            LocalizingAppBars();
         }     
     }
 }

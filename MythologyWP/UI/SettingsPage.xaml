@@ -24,8 +24,12 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Mythology Quiz for Windows Phone" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Settings" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle" 
+                       Text="{Binding Resources.ApplicationTitle, Source={StaticResource Strings}}"
+                       Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" 
+                       Text="{Binding Resources.Settings_PageTitle, Source={StaticResource Strings}}"
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
@@ -45,8 +49,8 @@
             <TextBlock Grid.Column="0"
                        Grid.Row="0"
                        Margin="20,0,0,0"
-                       Name="edtInterfaceLangLabel"
-                       Text="Interface language"/>
+                       Text="{Binding Resources.Settings_InterfaceLangTitle, Source={StaticResource Strings}}"
+                       Name="InterfaceLangTitle"/>
             <toolbox:ListPicker Name="edtInterfaceLang"
                                 Grid.Row="1">
                 <toolbox:ListPicker.FullModeItemTemplate>
@@ -63,8 +67,8 @@
             <TextBlock Grid.Column="0"
                        Grid.Row="2"
                        Margin="20,0,0,0"
-                       Name="edContentLangLabel"
-                       Text="Content language"/>
+                       Text="{Binding Resources.Settings_ContentLangTitle, Source={StaticResource Strings}}"
+                       Name="ContentLangTitle"/>
             <toolbox:ListPicker Name="edtContentLang"
                                 Grid.Row="3">
                 <toolbox:ListPicker.FullModeItemTemplate>
@@ -81,8 +85,8 @@
             <TextBlock Grid.Column="0"
                        Margin="20,10,0,0"
                        Grid.Row="4"
-                       Name="edtNationsLabel"
-                       Text="Nations"/>
+                       Text="{Binding Resources.Settings_NationsTitle, Source={StaticResource Strings}}"
+                       Name="NationsTitle"/>
             <ScrollViewer Name="svQuestion"
                           Grid.Row="5"
                           HorizontalAlignment="Stretch"

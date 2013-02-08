@@ -9,9 +9,10 @@
     mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
-    Foreground="{StaticResource PhoneForegroundBrush}"
+    Foreground="{StaticResource PhoneForegroundBrush}"    
     SupportedOrientations="Portrait" Orientation="Portrait"
     BackKeyPress="PhoneApplicationPage_BackKeyPress"
+    Loaded="PhoneApplicationPage_Loaded"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -24,8 +25,12 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" 
                     Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Mythology Quiz for Windows Phone" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Myth Quiz" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle"     
+                       Text="{Binding Resources.ApplicationTitle, Source={StaticResource Strings}}"
+                       Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle"                        
+                       Text="{Binding Resources.MainPage_Title, Source={StaticResource Strings}}"
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
@@ -39,24 +44,25 @@
                     Click="btnStart_Click" Margin="5" 
                     Grid.Row="0" >
                 <Button.Content>
-                    <TextBlock Text="Start" 
+                    <TextBlock Name="StartTitle"
+                               Text="{Binding Resources.MainPage_StartTitle, Source={StaticResource Strings}}"
                               FontSize="40"
                               Margin="2,0,0,0" VerticalAlignment="Center" />
                 </Button.Content>
             </Button>
             <StackPanel Grid.Row="1"
                        Margin="40,10,10,10">
-                <TextBlock HorizontalAlignment="Center">
-                Test your knowledge of world myths!
-                </TextBlock >                
+                <TextBlock Name="InviteTitle"
+                           Text="{Binding Resources.MainPage_InviteTitle, Source={StaticResource Strings}}"
+                           HorizontalAlignment="Center"/>                
             </StackPanel>
-            <StackPanel Name="spRecords"
+            <StackPanel Name="spRecords"                        
                         Grid.Row="2"
                         Margin="30,10,10,10"
                         Orientation="Vertical">
-                <TextBlock Name="edtRecordsTitle"                           
-                           HorizontalAlignment="Stretch"
-                           Text="Records:"/>
+                <TextBlock Name="RecordsTitle"                           
+                           Text="{Binding Resources.MainPage_RecordsTitle, Source={StaticResource Strings}}"
+                           HorizontalAlignment="Stretch"/>
             </StackPanel>
             <StackPanel Name="spFooter"                        
                         Grid.Row="3"
@@ -68,14 +74,9 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="Images\appbar.settings.png" x:Name="btnSettings" Text="settings" Click="btnSettings_Click"/>
-            <shell:ApplicationBarIconButton IconUri="Images\appbar.eval.png"  x:Name="btnEval"  Text="rate" Click="btnEval_Click"/>
-            <shell:ApplicationBarIconButton IconUri="Images\appbar.about.png" x:Name="btnAbout" Text="about" Click="btnAbout_Click"/>
-            <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="app settings" Click="btnSettings_Click"/>
-                <shell:ApplicationBarMenuItem Text="rate this app" Click="btnEval_Click"/>
-                <shell:ApplicationBarMenuItem Text="about" Click="btnAbout_Click"/>
-            </shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.settings.png" Text="settings" x:Name="btnSettings" Click="btnSettings_Click"/>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.eval.png"  Text="rate" x:Name="btnEval"  Click="btnEval_Click"/>
+            <shell:ApplicationBarIconButton IconUri="Images\appbar.about.png" Text="about" x:Name="btnAbout" Click="btnAbout_Click"/>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
