@@ -1,0 +1,38 @@
+1	Ra	Ra	God of the Sun. In one of his many forms, he has the head of a falcon and the sun-disk resting on his head.
+2	Thoth	Thoth	God of Knowledge, Hieroglyphs and Wisdom, in one of his forms as an ibis-headed man
+3	Amun	Amun	King of the Gods, a local deity of Thebes. He was attested since the Old Kingdom together with his spouse Amaunet
+4	Anubis	Anubis	Protector of the dead and embalming, a jackal-headed god associated with mummification and the afterlife in ancient Egyptian religion. He is the son of Nephthys and Set according to the Egyptian mythology
+5	Sobek	Sobek	God of the Nile, the Army and Military. He was depicted as a crocodile or a man with the head of a crocodile            
+6	Wadjet	Wadjet	"Ancient local goddess of the city of Dep (Buto), she was said to be the patron and protector of Lower Egypt and upon unification with Upper Egypt, the joint protector and patron of all of Egypt with the \""goddess\"" of Upper Egypt"
+7	Khepri	Khepri	God of rebirth and the sunrise, often represented as a scarab, or a scarab-headed man, holding aloft the morning sun
+8	Geb	Geb	Egyptian god of the Earth and a member of the Ennead of Heliopolis. It was believed in ancient Egypt that his laughter were earthquakes and that he allowed crops to grow
+9	Tefnut	Tefnut	Goddess of moisture, moist air, dew and rain in Ancient Egyptian religion. She is the sister and consort of the air god Shu and the mother of Geb and Nut
+10	Set	Set	God of the desert, storms, and foreigners in ancient Egyptian religion. In later myths he is also the god of darkness, and chaos
+11	Osiris	Osiris	Egyptian god, usually identified as the god of the afterlife, the underworld and the dead. He was classically depicted as a green-skinned man with a pharaoh's beard, partially mummy-wrapped at the legs, wearing a distinctive crown with two large ostrich feathers at either side, and holding a symbolic crook and flail
+12	Nut	Nut	Goddess of the sky in the Ennead of Egyptian mythology. She was seen as a star-covered nude woman arching over the earth, or as a cow
+13	Bes	Bes	an Ancient Egyptian deity worshipped as a protector of households, and in particular, of mothers and children and childbirth. He later came to be regarded as the defender of everything good and the enemy of all that is bad
+14	Apep	Apep	Evil god in ancient Egyptian religion, the deification of darkness and chaos (??zft in Egyptian), and thus opponent of light and Ma'at (order/truth), whose existence was believed from the 8th Dynasty (mentioned at Moalla) onwards
+15	Bastet	Bastet	Goddess of Cats, Lower Egypt, the sun and the moon
+16	Sekhmet	Sekhmet	The warrior goddess as well as goddess of healing for Upper Egypt. She is depicted as a lioness, the fiercest hunter known to the Egyptians. It was said that her breath created the desert. She was seen as the protector of the pharaohs and led them in warfare
+17	Hathor	Hathor	Sky-goddess of love, beauty, motherhood, foreign lands, mining, and music. She was one of the most important and popular deities throughout the history of Ancient Egypt
+18	Ptah	Ptah	God of creation, the arts and fertility,  demiurge of Memphis. In the triad of Memphis, he is the husband of Sekhmet and the father of Nefertum. He was also regarded as the father of the sage Imhotep
+19	Isis	Isis	Goddess of motherhood, magic and fertilityin Ancient Egyptian religious beliefs, whose worship spread throughout the Greco-Roman world. She was worshipped as the ideal mother and wife as well as the patroness of nature and magic. She was the friend of slaves, sinners, artisans, and the downtrodden, and she listened to the prayers of the wealthy, maidens, aristocrats, and rulers
+20	Imiut	Imiut	A stuffed, headless animal skin, often a feline or bull, which was tied by the tail to a pole terminating in a lotus bud, inserted into a stand
+21	Djed	Djed	A pillar-like symbol in hieroglyphics representing stability. It is associated with Osiris, the Egyptian god of the afterlife, the underworld, and the dead. It is commonly understood to represent his spine.
+22	Ankh	Ankh	"The ancient Egyptian hieroglyphic character that read \""life\"", the Egyptian gods are often portrayed carrying it by its loop, or bearing one in each hand, arms crossed over their chest"
+23	Eye of Horus	Eye of Horus	An ancient symbol of protection, royal power and good health. The eye is personified in the goddess Wadjet. It is also known as 'The Eye of Ra'
+24	Was	Was	A stylized animal head at the top of a long, straight staff with a forked end
+25	Mut	Mut	Goddess of queens and lady of heaven. She also was depicted as a woman with the crowns of Egypt upon her head.
+26	Horus	Horus	God of the king and vengeance.  He was usually depicted as a falcon-headed man wearing the pschent, or a red and white crown, as a symbol of kingship over the entire kingdom of Egypt
+27	Unut	Unut	A prehistoric Egyptian snake goddess
+28	Atum	Atum	God of creation, finisher of the world. He  was considered to be the first god, having created himself, sitting on a mound (benben) (or identified with the mound itself), from the primordial waters (Nu)
+29	Buchis	Buchis	The manifestation of the deification of Ka (power/life-force) of the war god Menthu, worshipped in the region of Hermonthis
+30	Mnevis	Mnevis	The bull, the Son of Ptah, and the symbol of the Sun-god Ra, as Apis was supposed to be Osiris in the sacred bull-form. His abode was at Heliopolis, the City of the Sun. He was black and carried on his horns the sacred ureus and disk
+31	Apis	Apis	The Egyptian god of strength and fertility, He was depicted as a bull. His spirit was said to be present in the body of a real bull which was kept by the Pharaoh and looked after by his priests
+32	Serapis	Serapis	An anthropomorphic god created by the Greek pharaoh Ptolemy I. Ptolemy I chose him to be the official god of Egypt and Greece. Serapis' attributes were both Egyptian and Hellenistic
+33	Ammit	Ammit	"A female demon with a body that was part lion, hippopotamus and crocodile. A funerary deity, her titles included \""Devourer of the Dead\"", \""Eater of Hearts\"", and \""Great of Death\""."
+34	Huh	Huh	One of the oldest Egyptian gods in ancient Egyptian history, the deification of eternity in the Ogdoad. He was the god of infinity and time, the god of long life and eternity. He has no gender, but has the aspect that can represent as male or female.
+35	Kuk	Kuk	The deification of the primordial concept of darkness. His male form was depicted as a frog, or as a frog-headed man, and the female form as a snake, or a snake-headed woman. As a symbol of darkness, He also represented obscurity and the unknown, and thus chaos
+36	Nu	Nu	The deification of the primordial watery abyss. He was depicted as a bearded man with rippled blue skin symbolizing water. Sometimes he was portrayed with a woman’s breasts to demonstrate his aspect as a fertility god. His symbols were palm fronds which represent long life and he is often shown wearing one in his hair and carrying one in his hand
+37	Ogdoad	Ogdoad	Eight deities worshipped in Hermopolis during what is called the Old Kingdom (Naunet and Nu, Amaunet and Amun, Kauket and Kuk, Hauhet and Huh). The females were associated with snakes and the males were associated with frogs,
+38	Aten	Aten	A being who represented the god or spirit of the sun, and the actual solar disk. He was depicted as a disk with rays reaching to the earth. At the end of the rays were human hands which often extended the ankh to the pharaoh                       

@@ -19,6 +19,7 @@ namespace MythologyWP.Data.DAL
             : base(connectionString)
         {
         }
+        
         public Table<Language> Languages
         {
             get
@@ -26,11 +27,20 @@ namespace MythologyWP.Data.DAL
                 return this.GetTable<Language>();
             }
         }
+        
         public Table<Nation> Nations
         {
             get
             {
                 return this.GetTable<Nation>();
+            }
+        }
+
+        public Table<I18nNation> I18nNations
+        {
+            get
+            {
+                return this.GetTable<I18nNation>();
             }
         }
 
@@ -41,6 +51,7 @@ namespace MythologyWP.Data.DAL
                 return this.GetTable<Character>();
             }
         }
+        
         public Table<Record> Records
         {
             get
@@ -48,6 +59,7 @@ namespace MythologyWP.Data.DAL
                 return this.GetTable<Record>();
             }
         }
+        
         public Table<DatabaseInfo> DatabaseInfo
         {
             get

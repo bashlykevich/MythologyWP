@@ -37,7 +37,7 @@ namespace MythologyWP.UI
             
             edtTimer.Text = GetTimeString(game.timeLeft+1);
             
-            StartGame();
+            
         }
         void StartGame()
         {
@@ -144,6 +144,11 @@ namespace MythologyWP.UI
         {
             timer.Stop();
             NavigationService.Navigate(new Uri(@"/MainPage.xaml", UriKind.Relative));
+        }
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            StartGame();
         }        
     }
 }

@@ -28,7 +28,5 @@ namespace MythologyWP.Data.AppSettings
                 AppSettings.StoreSetting<int>("LanguageID", value);
             }
         }
-
-
     }
 }

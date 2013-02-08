@@ -12,6 +12,7 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using MythologyWP.Data.DAL;
 using MythologyWP.Data.DAO;
+using MythologyWP.Data.AppSettings;
 
 namespace MythologyWP.UI
 {
@@ -37,7 +38,7 @@ namespace MythologyWP.UI
                 sp.VerticalAlignment = System.Windows.VerticalAlignment.Center;
 
                 TextBlock tb = new TextBlock();
-                tb.Text = "[" + n.ShortName + "] " + n.Name;
+                tb.Text = "[" + n.I18nNations[MythAppSettings.LanguageID].ShortName + "] " + n.I18nNations[MythAppSettings.LanguageID].Name;
                 tb.FontSize = 20;
                 tb.Width = 350;                
                 tb.VerticalAlignment = System.Windows.VerticalAlignment.Center;                
@@ -72,7 +73,7 @@ namespace MythologyWP.UI
 
         private void PhoneApplicationPage_BackKeyPress(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            if (checkBoxes.Count(cb => cb.IsChecked == true) == 0)
+            if (checkBoxes.Count(cb => cb.IsChecked == true) == 0 && checkBoxes.Count > 0)
             {
                 MessageBox.Show("Select at least one nation to continue");
                 e.Cancel = true;

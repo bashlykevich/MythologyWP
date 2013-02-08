@@ -30,7 +30,7 @@ namespace MythologyWP.Data.Game
             string name = character.Name;//[MythAppSettings.LanguageID];
             int versionsCount = 4;
             plot = descr;
-            nation = character.Nation.Name;
+            nation = character.Nation.I18nNations[0].Name;
 
             versions.Add(name);
 

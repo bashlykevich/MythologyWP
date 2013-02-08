@@ -60,8 +60,6 @@ namespace MythologyWP.Data.DAO
                 this.nationID = value;
             }
         }
- 
-
         [Association(Name = "FK_Nation_Characters", Storage = "nationRef", ThisKey = "NationID", OtherKey = "ID", IsForeignKey = true)]
         public Nation Nation
         {

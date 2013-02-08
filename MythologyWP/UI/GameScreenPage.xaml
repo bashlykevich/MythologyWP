@@ -12,6 +12,7 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
     BackKeyPress="PhoneApplicationPage_BackKeyPress"
+    Loaded="PhoneApplicationPage_Loaded"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->

@@ -13,6 +13,7 @@ using Microsoft.Phone.Controls;
 using MythologyWP.Data.DAO;
 using MythologyWP.Data.DAL;
 using MythologyWP.Helpers;
+using MythologyWP.Data.AppSettings;
 
 namespace MythologyWP.UI
 {
@@ -87,7 +88,7 @@ namespace MythologyWP.UI
             {
                 foreach(Nation n in nlist)
                 {
-                    nations += n.ShortName + ";";
+                    nations += n.I18nNations[MythAppSettings.LanguageID].ShortName + ";";
                 }
                 nations = nations.Substring(0, nations.Length - 1);
             }
