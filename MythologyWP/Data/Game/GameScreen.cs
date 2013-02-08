@@ -30,12 +30,12 @@ namespace MythologyWP.Data.Game
             string name = character.Name;//[MythAppSettings.LanguageID];
             int versionsCount = 4;
             plot = descr;
-            nation = character.Nation.I18nNations[0].Name;
+            nation = character.Nation.I18nNations[MythAppSettings.LanguageID].Name;
 
             versions.Add(name);
 
             // get 3 random chars as versions            
-            List<Character> characters = (from fd in MythDB.Instance.Database.Characters where fd.Nation.IsActive select fd).ToList();            
+            List<Character> characters = (from fd in MythDB.Instance.Database.Characters where fd.Nation == character.Nation select fd).ToList();            
             for (int i = 1; i < versionsCount; i++)
             {
                 Random r = new Random();

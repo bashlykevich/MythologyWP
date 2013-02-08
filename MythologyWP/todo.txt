@@ -1,4 +1,4 @@
-﻿Variants from the same myth as plot
+﻿Content files to Unicode
 Truncate long plots
 Create email on myth-quiz-dev@live.com
 Metro design guidelines require the application title at the top of the page to be in all caps 

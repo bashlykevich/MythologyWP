@@ -47,24 +47,6 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Column="0"
-                       Grid.Row="0"
-                       Margin="20,0,0,0"
-                       Text="{Binding Resources.Settings_InterfaceLangTitle, Source={StaticResource Strings}}"
-                       Name="InterfaceLangTitle"/>
-            <toolbox:ListPicker Name="edtInterfaceLang"
-                                Grid.Row="1">
-                <toolbox:ListPicker.FullModeItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal" Margin="16 21 0 20">
-                            <TextBlock Text="{Binding}"
-                                           Margin="0 0 0 0"
-                                           FontSize="43"
-                                           FontFamily="{StaticResource PhoneFontFamilyLight}" />
-                        </StackPanel>
-                    </DataTemplate>
-                </toolbox:ListPicker.FullModeItemTemplate>
-            </toolbox:ListPicker>
-            <TextBlock Grid.Column="0"
                        Grid.Row="2"
                        Margin="20,0,0,0"
                        Text="{Binding Resources.Settings_ContentLangTitle, Source={StaticResource Strings}}"

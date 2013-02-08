@@ -58,8 +58,7 @@ namespace MythologyWP.UI
             List<Language> langs = MythDB.Instance.Database.Languages.ToList();
             foreach (Language lang in langs)
             {
-                edtContentLang.Items.Add(lang.Name);
-                edtInterfaceLang.Items.Add(lang.Name);
+                edtContentLang.Items.Add(lang.Name);                
             }
         }
         void SaveSettings()
