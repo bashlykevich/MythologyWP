@@ -138,9 +138,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\InitData\myth-eg-en.xlsx" />
-    <None Include="Data\InitData\myth-gr-en.xlsx" />
-    <None Include="Data\InitData\myth-sc-en.xlsx" />
+    <None Include="Data\InitData\excel\myth-eg-en.xlsx" />
+    <None Include="Data\InitData\excel\myth-eg-ru.xlsx" />
+    <None Include="Data\InitData\excel\myth-gr-en.xlsx" />
+    <None Include="Data\InitData\excel\myth-gr-ru.xlsx" />
+    <None Include="Data\InitData\excel\myth-sc-en.xlsx" />
+    <None Include="Data\InitData\excel\myth-sc-ru.xlsx" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
   </ItemGroup>
@@ -155,8 +158,11 @@
     <Resource Include="Images\correctanswer.png" />
     <Resource Include="Images\wronganswer.png" />
     <Content Include="Data\InitData\myth-eg-en.txt" />
+    <Content Include="Data\InitData\myth-eg-ru.txt" />
     <Content Include="Data\InitData\myth-gr-en.txt" />
+    <Content Include="Data\InitData\myth-gr-ru.txt" />
     <Content Include="Data\InitData\myth-sc-en.txt" />
+    <Content Include="Data\InitData\myth-sc-ru.txt" />
     <Content Include="Images\appbar.about.png" />
     <Content Include="Images\appbar.settings.png" />
     <Content Include="Images\appbar.eval.png" />

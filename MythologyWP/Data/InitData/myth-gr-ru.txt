@@ -1,0 +1,64 @@
+1	Zeus	Зевс	Бог грома и молнии, верховный бог
+2	Ares	Арес	Бог войны, сын Зевса и Геры, муж Афродиты
+3	Athena	Афина	Богиня войны и мудрости, дочь Зевса и Метиды, мать Эрихтоний и корибантов
+4	Artemis	Артемида	Богиня охоты, покровительница всего живого, дочь Зевса и титаниды Лето
+5	Apollo	Аполлон	Бог искусств и предсказаний, сын Зевса и титаниды Лето
+6	Cronus	Кронос	Верховное божество, младший сын первого бога Урана (неба) и богини Геи (земли). Первоначально — бог земледелия. Правитель Олимпа, позже кастрирован, свержен, и заключён в Тартар
+7	Rhea	Рея	Титанида, мать олимпийских богов. Дочь Урана и Геи. Супруга и сестра титана Кроноса, мать Гестии, Деметры, Геры, Аида, Посейдона, Зевса. По орфикам, дочь Протогона
+8	Dionysus	Дионис	Младший из олимпийцев, бог растительности, виноградарства, виноделия, производительных сил природы, вдохновения и религиозного экстаза. Сын Зевса и смертной Семелы, муж Ариадны
+9	Hebe	Геба	Богиня юности, дочь Зевса и Геры (по некоторым авторам, Гера родила её от латука), служившая на Олимпе виночерпием богов до тех пор, пока её не сменил Ганимед. Была выдана замуж за Геракла, когда он обрёл бессмертие, как знак примирения Геры с Гераклом
+10	Hermes	Гермес	" Бог торговли, прибыли, разумности, ловкости, плутовства, обмана, воровства и красноречия, дающий богатство и доход в торговле, бог атлетов[3]. Покровитель глашатаев, послов, пастухов и путников; покровитель магии, алхимии и астрологии. Посланник богов и проводник душ умерших (отсюда прозвище Психопомп — проводник душ) в подземное царство Аида. Изобрёл меры, числа, азбуку и обучил людей"
+11	Heracles	Геракл	Gatekeeper of Olympus, God of heroes, sports, athletes, health, agriculture, fertility, trade, oracles and divine protector of mankind
+12	Helen of Troy	Елена Троянская	The daughter of Zeus and Leda (or Nemesis), step-daughter of King Tyndareus, wife of Menelaus and sister of Castor, Polydeuces and Clytemnestra
+13	Hephaestus	Гефест	Бог огня и кузнечного ремесла, сын Зевса и Геры, супруг Афродиты (по Гомеру)  или Хариты Аглаи (по Гесиду)
+14	Perseus	Персей	The first of the heroes of Greek mythology whose exploits in defeating various archaic monsters provided the founding myths of the Twelve Olympians. Perseus was the Greek hero who killed the Gorgon Medusa, and claimed Andromeda, having rescued her from a sea monster sent by Poseidon in retribution for Queen Cassiopeia declaring that her daughter, Andromeda, was more beautiful than the Nereids
+15	Minos	Минос	King of Crete, son of Zeus and Europa. After the death, he became a judge of the dead in the underworld
+16	Calliope	Каллиопа	Муза эпической поэзии, науки и философии. Старшая дочь Зевса и Мнемосины. Мать Орфея и Лина от Аполлона (или от Эагра). По одной из версий, мать Реса. По версии, родила от Аполлона Гомера.
+17	Clio	Клио	The muse of history. Like all the muses, she is a daughter of Zeus and Mnemosyne. She had one son, Hyacinth, with one of several kings, in various myths - with Pierus, King of Macedon, or with king Oebalus of Sparta, or with king Amyclas, progenitor of the people of Amyclae, dwellers about Sparta
+18	Erato	Эрато	The Muse of lyric poetry, especially love and erotic poetry
+19	Euterpe	Эвтерпа	Муза лирической поэзии и музыки. Изображалась с авлосом или сирингой в руках. Мать Реса от речного бога Стримона
+20	Melpomene	Мельпомена	Initially the Muse of Singing, she then became the Muse of Tragedy, for which she is best known now
+21	Polyhymnia	Полигимния	The Muse of sacred poetry, sacred hymn and eloquence as well as agriculture and pantomime
+22	Terpsichore	Терпсихора	One of the nine Muses, ruling over dance and the dramatic chorus
+23	Thalia	Талия	"The Muse who presided over comedy and idyllic poetry. In this context her name means \""flourishing\"", because the praises in her songs flourish through time. She was the daughter of Zeus and Mnemosyne, the eighth-born of the nine Muses"
+24	Urania	Урания	The muse of astronomy and a daughter of Zeus by Mnemosyne and also a granddaughter of Uranus. Some accounts list her as the mother of the musician Linus by Apollo, and Hymenaeus also is said to have been a son of her
+25	Graces	Грация	Goddesses of charm, beauty, nature, human creativity and fertility
+26	Gaia	Гея	Богиня земли. Родилась вслед за Хаосом. Мать всего, что живет и растет на ней, а также мать Неба, Моря, титанов и гигантов. По одной версии, дочь Эфира и Гемеры
+27	Amalthea	Амальтея	The most-frequently mentioned foster-mother of Zeus
+28	Oceanus	Океан	Божество величайшей мировой реки, омывающей землю и море, дающей начало рекам, источникам, морским течениям, приюта солнца, луны и звёзд. Титан, сын Урана и Геи, брат и супруг Тефиды, с которой он породил три тысячи дочерей — океанид и столько же сыновей — речных потоков
+29	Aphrodite	Афродита	Богиня плодородия, любви и красоты. Дочь Урана, мать Энея, жена Гефеста, любовница Ареса
+30	Leto	Лето	A daughter of the Titans Coeus and Phoebe and the sister of Asteria. The island of Kos is claimed as her birthplace
+31	Enyo	Энио	Богиня неистовой войны, спутница Ареса, вакханка. Вносила смятение в битву, вызывала в воинах ярость. По одной из версий, одна из Грай, дочь Форкия и Кето, сестра Дейно и Пефредо
+32	Poseidon	Посейдон	God of the sea, earthquakes, storms, and horses
+33	Phoebe	Феба	Титанида, дочь Урана и Геи, сестра и жена Коя, мать Лето и Астерии, бабушка Аполлона и Артемиды. Она же — кормилица Аполлона. Она владела прорицалищем с храмом и оракулом в Дельфах после Фемиды, затем подарила его внуку
+34	Mnemosyne	Мнемозина	The personification of memory in Greek mythology. This titaness was the daughter of Gaia and Uranus and the mother of the nine Muses by Zeus
+35	Aega	Эга	Дочь Гелия, кормилица Зевса. Наводила на титанов страх своим взглядом, и Гея спрятала её в пещере на Крите. Согласно пророчеству, Зевс вел битву в козьей шкуре
+36	Pan	Пан	God of Nature, the Wild, Shepherds, Flocks, Goats, of Mountain Wilds,and is often associated with sexuality
+37	Ananke	Ананке	Personification of destiny, necessity and fate, depicted as holding a spindle. She marks the beginning of the cosmos, along with Chronos. She was seen as the most powerful dictator of all fate and circumstance which meant that mortals, as well as the Gods, respected her and paid homage
+38	Atropos	Атропос	"The oldest of the three Moirai, goddesses of fate and destiny, was known as the \""inflexible\"" or \""inevitable.\"""
+39	Clotho	Клото	Мойра, прядущая нить жизни. Именно она вернула жизнь Пелопу и предрекла Афине девственность
+40	Lachesis	Лахесис	Мойра, определяющая судьбу жизни (длину нити). Наблюдала за родами Лето
+41	Demeter	Деметра	Богиня плодородия и земледелия. Одно из наиболее почитаемых божеств олимпийского пантеона. Её имя означает «Мать-Земля». Дочь Кроноса и Реи
+42	Persephone	Персефона	Богиня плодородия и царства мёртвых, дочь Деметры и Зевса. Вскормлена Деметрой и нимфами в пещере
+43	Dione	Диона	Богиня дождя, согласно орфикам — титанида, дочь Урана и Геи
+44	Eos	Эос	A Titaness and the goddess of the Dawn, who rose each morning from her home at the edge of the Oceanus
+45	Ersa	Эрса	Богиня росы, дочь Зевса и Селены, или Зевса и Эос.
+46	Eris	Эрида	Богиня раздора, первичная космогоническая сила: дочь Нюкты, внучка Хаоса. Породила голод, скорби, битвы, убийства, споры, тяжбы, беззаконие, но она же породила труд.
+47	Orion	Орион	A giant huntsman in Greek mythology whom Zeus placed among the stars
+48	Manes	Manes	The eponymous first king of Maeonia, and later came to be known as the first king in line of the primordial house of Lydia, the Atyad dynasty. He was believed to be a son of Gaia and Zeus
+49	Nemesis	Немесида	Крылатая богиня возмездия, карающая за нарушение общественных и моральных норм. Дочь Нюкты и Эреба
+50	Maia	Майя	Старшая из семи сестёр-плеяд, нимфа гор. Превосходила сестер красотой. В гроте аркадской горы Киллена Майя сошлась с Зевсом, от которого родила Гермеса
+51	Selene	Селена	Titaness of the Moon, an archaic lunar deity and the daughter of the Titans Hyperion and Theia
+52	Nemean lion	Немейский лев	" The offspring of Typhon (or Orthrus) and Echidna; it is also said to have fallen from the moon as the offspring of Zeus and Selene, or alternatively born of the Chimera. He was sent to the Peloponnesus to terrorize the city"
+53	Callisto	Каллисто	A nymph of Artemis. Transformed into a bear and set among the stars, she was the bear-mother of the Arcadians, through her son Arcas
+54	Dana?	Даная	Дочь Акрисия, царя Аргосского и Евридики. Так как Акрисию было предсказано, что он будет убит сыном своей дочери, то он заключил дочь в подземный медный дом и приставил к ней служанку. Зевс, пленившись красотой узницы, проник к ней в виде золотого дождя и оплодотворил её, у неё родился сын Персей
+55	Electra	Электра	One of the seven daughters of Atlas and Pleione, she was the wife of Corythus. She was raped by Zeus and gave birth to Dardanus
+56	Harmonia	Гармония	The immortal goddess of harmony and concord, she is the daughter of Ares and Aphrodite
+57	Europa	Европа	"A Phoenician woman of high lineage. The story of her abduction by Zeus in the form of a white bull was a Cretan story; as Ker?nyi points out most of the love-stories concerning Zeus originated from more ancient tales describing his marriages with goddesses"
+58	Rhadamanthus	Радамант	Судья в загробном мире, живет на Елисейский полях. Сын Зевса и Европы.
+59	Himalia	Гималия	Нимфа с Родоса. Когда Зевс одолел титанов, он вступил с ней в любовную связь, и она родила сыновей Спартея, Крония и Кита
+60	Leda	Леда	Daughter of the Aetolian king Thestius, and wife of the king Tyndareus, of Sparta. Her myth gave rise to the popular motif in Renaissance and later art (with the swan). She was the mother of Helen of Troy, Clytemnestra, and Castor and Pollux
+61	Dioscuri	Диоскуры	Twin brothers,  their mother was Leda, but one of them was the mortal son of Tyndareus, king of Sparta, and the other was the divine son of Zeus, who raped Leda in the guise of a swan. Though accounts of their birth are varied, they are sometimes said to have been born from an egg, along with their twin sisters Helen of Troy and Clytemnestra
+62	Pandora	Пандора	"The first woman. As Hesiod related it, each god helped create her by giving her unique gifts. Zeus ordered Hephaestus to mold her out of earth as part of the punishment of humanity for Prometheus' theft of the secret of fire, and all the gods joined in offering her \""seductive gifts\"""
+63	Plouto	Плуто	Нимфа, дочь Кроноса и Реи (или Океана и Тефиды). Родила от Зевса Тантала
+64	Tantalus	Тантал	Царь Сипила во Фригии, сын Зевса и нимфы Плуто. По Гомеру, испытывает в подземном царстве нестерпимые муки голода и жажды.
