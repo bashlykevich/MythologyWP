@@ -19,15 +19,18 @@ namespace MythologyWP.UI
     public partial class SettingsPage : PhoneApplicationPage
     {
         public SettingsPage()
-        {
+        {            
             InitializeComponent();
             LoadLanguages();
             LoadNations();
         }
         List<Nation> nations;
         List<CheckBox> checkBoxes;
+        
         void LoadNations()
         {
+            int LanguageIndex = edtContentLang.SelectedIndex;
+            spNations.Children.Clear();
             nations = MythDB.Instance.Database.Nations.ToList();
             checkBoxes = new List<CheckBox>();
             foreach (Nation n in nations)
@@ -38,7 +41,7 @@ namespace MythologyWP.UI
                 sp.VerticalAlignment = System.Windows.VerticalAlignment.Center;
 
                 TextBlock tb = new TextBlock();
-                tb.Text = "[" + n.I18nNations[MythAppSettings.LanguageID].ShortName + "] " + n.I18nNations[MythAppSettings.LanguageID].Name;
+                tb.Text = "[" + n.I18nNations[LanguageIndex].ShortName + "] " + n.I18nNations[LanguageIndex].Name;
                 tb.FontSize = 20;
                 tb.Width = 350;                
                 tb.VerticalAlignment = System.Windows.VerticalAlignment.Center;                
@@ -55,14 +58,12 @@ namespace MythologyWP.UI
         }
         void LoadLanguages()
         {
-            List<Language> langs = MythDB.Instance.Database.Languages.ToList();
-            foreach (Language lang in langs)
-            {
-                edtContentLang.Items.Add(lang.Name);                
-            }
+            edtContentLang.DataContext = MythDB.Instance.Database.Languages.ToList();            
+            edtContentLang.SelectedItem = MythDB.Instance.Database.Languages.ToList()[MythAppSettings.LanguageIndex];
         }
         void SaveSettings()
         {
+            MythAppSettings.LanguageIndex = edtContentLang.SelectedIndex;
             foreach (Nation n in nations)
             {
                 MythDB.Instance.Database.Nations.FirstOrDefault(x => x.ID == n.ID).IsActive = checkBoxes[nations.IndexOf(n)].IsChecked.Value;
@@ -78,6 +79,10 @@ namespace MythologyWP.UI
                 e.Cancel = true;
             }
             SaveSettings();
+        }  
+        private void edtContentLang_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            LoadNations();
         }
     }
 }

@@ -88,7 +88,7 @@ namespace MythologyWP.UI
             {
                 foreach(Nation n in nlist)
                 {
-                    nations += n.I18nNations[MythAppSettings.LanguageID].ShortName + ";";
+                    nations += n.I18nNations[MythAppSettings.LanguageIndex].ShortName + ";";
                 }
                 nations = nations.Substring(0, nations.Length - 1);
             }
