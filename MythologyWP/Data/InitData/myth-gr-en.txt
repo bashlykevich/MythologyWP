@@ -1,4 +1,4 @@
-1	Zeus	Zeus	King of the Gods, God of the Sky, Thunder and Lightning and Law, Order and Justice
+﻿1	Zeus	Zeus	King of the Gods, God of the Sky, Thunder and Lightning and Law, Order and Justice
 2	Ares	Ares	God of War
 3	Athena	Athena	Goddess of Wisdom, Warfare, Divine intelligence, Architecture and Crafts (but commanly known as goddess of war and wisdom
 4	Artemis	Artemis	Goddess of the Hunt, Forests and Hills, the Moon

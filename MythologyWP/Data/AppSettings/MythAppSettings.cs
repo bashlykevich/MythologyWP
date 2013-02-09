@@ -21,7 +21,7 @@ namespace MythologyWP.Data.AppSettings
                 if (AppSettings.TryGetSetting<int>("LanguageID", out Language))
                     return Language;
                 else
-                    return 0;
+                    return 1;
             }
             set
             {

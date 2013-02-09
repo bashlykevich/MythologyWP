@@ -19,11 +19,11 @@ namespace MythologyWP.Data.DAO
     {
         public Character()
         {
+            this.i18nCharactersRef = new EntitySet<I18nCharacter>(this.OnI18nCharacterAdded, this.OnI18nCharacterRemoved);
         }
-        public Character(string name, string description, Nation nation)
+        public Character(string name, string description, Nation nation, Language language):this()
         {
-            Name = name;
-            Description = description;
+            I18nCharacters.Add(new I18nCharacter(name, description, language));            
             Nation = nation;
         }
 
@@ -34,18 +34,7 @@ namespace MythologyWP.Data.DAO
             set;
         }
 
-        [Column(CanBeNull = false)]
-        public string Name
-        {
-            get;
-            set;
-        }      
-        [Column(CanBeNull = false)]
-        public string Description
-        {
-            get;
-            set;
-        }
+        
         private EntityRef<Nation> nationRef = new EntityRef<Nation>();        
         private Nullable<int> nationID;
         [Column(Storage = "nationID", DbType = "Int")]
@@ -90,5 +79,25 @@ namespace MythologyWP.Data.DAO
                 }
             }
         }
+
+        #region I18nCharacters
+        private EntitySet<I18nCharacter> i18nCharactersRef;
+        [Association(Name = "FK_Character_i18nCharacters", Storage = "i18nCharactersRef", ThisKey = "ID", OtherKey = "CharacterID")]
+        public EntitySet<I18nCharacter> I18nCharacters
+        {
+            get
+            {
+                return this.i18nCharactersRef;
+            }
+        }
+        private void OnI18nCharacterAdded(I18nCharacter character)
+        {
+            character.Character = this;
+        }
+        private void OnI18nCharacterRemoved(I18nCharacter character)
+        {
+            character.Character = null;
+        }
+        #endregion
     }
 }

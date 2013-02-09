@@ -70,9 +70,10 @@
     <Compile Include="Data\DAL\MythDB.cs" />
     <Compile Include="Data\DAO\Character.cs" />
     <Compile Include="Data\DAO\DatabaseInfo.cs" />
+    <Compile Include="Data\DAO\I18nCharacter.cs" />
     <Compile Include="Data\DAO\Language.cs" />
     <Compile Include="Data\DAO\Nation.cs" />
-    <Compile Include="Data\DAO\NationI18n.cs" />
+    <Compile Include="Data\DAO\I18nNation.cs" />
     <Compile Include="Data\DAO\Record.cs" />
     <Compile Include="Data\Game\GameScreen.cs" />
     <Compile Include="Data\Game\MythGame.cs" />

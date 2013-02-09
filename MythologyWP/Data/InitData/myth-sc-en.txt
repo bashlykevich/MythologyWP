@@ -1,4 +1,4 @@
-1	Odin	Odin	A major god in Norse mythology and the ruler of Asgard
+﻿1	Odin	Odin	A major god in Norse mythology and the ruler of Asgard
 2	Asgard	Asgard	One of the Nine Worlds and home to the Norse gods of the ?sir. It is surrounded by an incomplete wall attributed to a Hrimthurs riding the stallion Sva?ilfari, according to Gylfaginning. Odin and his wife, Frigg, are the rulers of this world
 3	Bragi	Bragi	The skaldic god of poetry in Norse mythology
 4	Freyr	Freyr	One of the most important gods of Norse paganism, associated with sacral kingship, virility and prosperity, with sunshine and fair weather, and was pictured as a phallic fertility god
@@ -7,7 +7,7 @@
 7	Freyja	Freyja	A goddess associated with love, beauty, fertility, gold, sei?r, war, and death. She is the owner of the necklace Br?singamen, rides a chariot pulled by two cats, owns the boar Hildisv?ni, possesses a cloak of falcon feathers, and, by her husband ??r, is the mother of two daughters, Hnoss and Gersemi
 8	Gn?	Gn?	A goddess who runs errands in other worlds for the goddess Frigg and rides the flying, sea-treading horse H?fvarpnir
 9	H?fvarpnir	H?fvarpnir	The flying, sea-treading horse rided by Gn?
-10	J?tunheimr	J?tunheimr	One of the Nine Worlds and the homeland (heim 'home') of the Giants of Norse Mythology � Rock Giants and Frost Giants            
+10	J?tunheimr	J?tunheimr	One of the Nine Worlds and the homeland (heim 'home') of the Giants of Norse Mythology — Rock Giants and Frost Giants            
 11	Midgard	Midgard	The name for the world (in the sense of oikoumene) inhabited by and known to humans in early Germanic cosmology, and specifically one of the Nine Worlds in Norse mythology
 12	Niflheim	Niflheim	A realm of primordial ice and cold, with nine frozen rivers. According to Gylfaginning, it was one of the two primordial realms
 13	Valhalla	Valhalla	A majestic, enormous hall located in Asgard, ruled over by the god Odin. Chosen by Odin, half of those who die in combat travel there upon death, led by valkyries, while the other half go to the goddess Freyja's field F?lkvangr

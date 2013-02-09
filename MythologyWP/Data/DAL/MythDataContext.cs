@@ -51,6 +51,13 @@ namespace MythologyWP.Data.DAL
                 return this.GetTable<Character>();
             }
         }
+        public Table<I18nCharacter> I18nCharacters
+        {
+            get
+            {
+                return this.GetTable<I18nCharacter>();
+            }
+        }
         
         public Table<Record> Records
         {

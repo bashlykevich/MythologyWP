@@ -26,8 +26,8 @@ namespace MythologyWP.Data.Game
 
         public GameScreen(Character character)
         {
-            string descr = character.Description;//[MythAppSettings.LanguageID];
-            string name = character.Name;//[MythAppSettings.LanguageID];
+            string descr = character.I18nCharacters[MythAppSettings.LanguageID].Description;
+            string name = character.I18nCharacters[MythAppSettings.LanguageID].Name;
             int versionsCount = 4;
             plot = descr;
             nation = character.Nation.I18nNations[MythAppSettings.LanguageID].Name;
@@ -42,7 +42,7 @@ namespace MythologyWP.Data.Game
                 string vers = "";
                 do
                 {
-                    vers = characters[r.Next(characters.Count)].Name;//[MythAppSettings.LanguageID];
+                    vers = characters[r.Next(characters.Count)].I18nCharacters[MythAppSettings.LanguageID].Name;
                 } while (versions.Contains(vers) && characters.Count > 3);
 
                 versions.Add(vers);

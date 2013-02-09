@@ -1,64 +1,64 @@
-1	Zeus	Зевс	Бог грома и молнии, верховный бог
-2	Ares	Арес	Бог войны, сын Зевса и Геры, муж Афродиты
-3	Athena	Афина	Богиня войны и мудрости, дочь Зевса и Метиды, мать Эрихтоний и корибантов
-4	Artemis	Артемида	Богиня охоты, покровительница всего живого, дочь Зевса и титаниды Лето
-5	Apollo	Аполлон	Бог искусств и предсказаний, сын Зевса и титаниды Лето
-6	Cronus	Кронос	Верховное божество, младший сын первого бога Урана (неба) и богини Геи (земли). Первоначально — бог земледелия. Правитель Олимпа, позже кастрирован, свержен, и заключён в Тартар
-7	Rhea	Рея	Титанида, мать олимпийских богов. Дочь Урана и Геи. Супруга и сестра титана Кроноса, мать Гестии, Деметры, Геры, Аида, Посейдона, Зевса. По орфикам, дочь Протогона
-8	Dionysus	Дионис	Младший из олимпийцев, бог растительности, виноградарства, виноделия, производительных сил природы, вдохновения и религиозного экстаза. Сын Зевса и смертной Семелы, муж Ариадны
-9	Hebe	Геба	Богиня юности, дочь Зевса и Геры (по некоторым авторам, Гера родила её от латука), служившая на Олимпе виночерпием богов до тех пор, пока её не сменил Ганимед. Была выдана замуж за Геракла, когда он обрёл бессмертие, как знак примирения Геры с Гераклом
-10	Hermes	Гермес	" Бог торговли, прибыли, разумности, ловкости, плутовства, обмана, воровства и красноречия, дающий богатство и доход в торговле, бог атлетов[3]. Покровитель глашатаев, послов, пастухов и путников; покровитель магии, алхимии и астрологии. Посланник богов и проводник душ умерших (отсюда прозвище Психопомп — проводник душ) в подземное царство Аида. Изобрёл меры, числа, азбуку и обучил людей"
-11	Heracles	Геракл	Gatekeeper of Olympus, God of heroes, sports, athletes, health, agriculture, fertility, trade, oracles and divine protector of mankind
-12	Helen of Troy	Елена Троянская	The daughter of Zeus and Leda (or Nemesis), step-daughter of King Tyndareus, wife of Menelaus and sister of Castor, Polydeuces and Clytemnestra
-13	Hephaestus	Гефест	Бог огня и кузнечного ремесла, сын Зевса и Геры, супруг Афродиты (по Гомеру)  или Хариты Аглаи (по Гесиду)
-14	Perseus	Персей	The first of the heroes of Greek mythology whose exploits in defeating various archaic monsters provided the founding myths of the Twelve Olympians. Perseus was the Greek hero who killed the Gorgon Medusa, and claimed Andromeda, having rescued her from a sea monster sent by Poseidon in retribution for Queen Cassiopeia declaring that her daughter, Andromeda, was more beautiful than the Nereids
-15	Minos	Минос	King of Crete, son of Zeus and Europa. After the death, he became a judge of the dead in the underworld
-16	Calliope	Каллиопа	Муза эпической поэзии, науки и философии. Старшая дочь Зевса и Мнемосины. Мать Орфея и Лина от Аполлона (или от Эагра). По одной из версий, мать Реса. По версии, родила от Аполлона Гомера.
-17	Clio	Клио	The muse of history. Like all the muses, she is a daughter of Zeus and Mnemosyne. She had one son, Hyacinth, with one of several kings, in various myths - with Pierus, King of Macedon, or with king Oebalus of Sparta, or with king Amyclas, progenitor of the people of Amyclae, dwellers about Sparta
-18	Erato	Эрато	The Muse of lyric poetry, especially love and erotic poetry
-19	Euterpe	Эвтерпа	Муза лирической поэзии и музыки. Изображалась с авлосом или сирингой в руках. Мать Реса от речного бога Стримона
-20	Melpomene	Мельпомена	Initially the Muse of Singing, she then became the Muse of Tragedy, for which she is best known now
-21	Polyhymnia	Полигимния	The Muse of sacred poetry, sacred hymn and eloquence as well as agriculture and pantomime
-22	Terpsichore	Терпсихора	One of the nine Muses, ruling over dance and the dramatic chorus
-23	Thalia	Талия	"The Muse who presided over comedy and idyllic poetry. In this context her name means \""flourishing\"", because the praises in her songs flourish through time. She was the daughter of Zeus and Mnemosyne, the eighth-born of the nine Muses"
-24	Urania	Урания	The muse of astronomy and a daughter of Zeus by Mnemosyne and also a granddaughter of Uranus. Some accounts list her as the mother of the musician Linus by Apollo, and Hymenaeus also is said to have been a son of her
-25	Graces	Грация	Goddesses of charm, beauty, nature, human creativity and fertility
-26	Gaia	Гея	Богиня земли. Родилась вслед за Хаосом. Мать всего, что живет и растет на ней, а также мать Неба, Моря, титанов и гигантов. По одной версии, дочь Эфира и Гемеры
-27	Amalthea	Амальтея	The most-frequently mentioned foster-mother of Zeus
-28	Oceanus	Океан	Божество величайшей мировой реки, омывающей землю и море, дающей начало рекам, источникам, морским течениям, приюта солнца, луны и звёзд. Титан, сын Урана и Геи, брат и супруг Тефиды, с которой он породил три тысячи дочерей — океанид и столько же сыновей — речных потоков
-29	Aphrodite	Афродита	Богиня плодородия, любви и красоты. Дочь Урана, мать Энея, жена Гефеста, любовница Ареса
-30	Leto	Лето	A daughter of the Titans Coeus and Phoebe and the sister of Asteria. The island of Kos is claimed as her birthplace
-31	Enyo	Энио	Богиня неистовой войны, спутница Ареса, вакханка. Вносила смятение в битву, вызывала в воинах ярость. По одной из версий, одна из Грай, дочь Форкия и Кето, сестра Дейно и Пефредо
-32	Poseidon	Посейдон	God of the sea, earthquakes, storms, and horses
-33	Phoebe	Феба	Титанида, дочь Урана и Геи, сестра и жена Коя, мать Лето и Астерии, бабушка Аполлона и Артемиды. Она же — кормилица Аполлона. Она владела прорицалищем с храмом и оракулом в Дельфах после Фемиды, затем подарила его внуку
-34	Mnemosyne	Мнемозина	The personification of memory in Greek mythology. This titaness was the daughter of Gaia and Uranus and the mother of the nine Muses by Zeus
-35	Aega	Эга	Дочь Гелия, кормилица Зевса. Наводила на титанов страх своим взглядом, и Гея спрятала её в пещере на Крите. Согласно пророчеству, Зевс вел битву в козьей шкуре
-36	Pan	Пан	God of Nature, the Wild, Shepherds, Flocks, Goats, of Mountain Wilds,and is often associated with sexuality
-37	Ananke	Ананке	Personification of destiny, necessity and fate, depicted as holding a spindle. She marks the beginning of the cosmos, along with Chronos. She was seen as the most powerful dictator of all fate and circumstance which meant that mortals, as well as the Gods, respected her and paid homage
-38	Atropos	Атропос	"The oldest of the three Moirai, goddesses of fate and destiny, was known as the \""inflexible\"" or \""inevitable.\"""
-39	Clotho	Клото	Мойра, прядущая нить жизни. Именно она вернула жизнь Пелопу и предрекла Афине девственность
-40	Lachesis	Лахесис	Мойра, определяющая судьбу жизни (длину нити). Наблюдала за родами Лето
-41	Demeter	Деметра	Богиня плодородия и земледелия. Одно из наиболее почитаемых божеств олимпийского пантеона. Её имя означает «Мать-Земля». Дочь Кроноса и Реи
-42	Persephone	Персефона	Богиня плодородия и царства мёртвых, дочь Деметры и Зевса. Вскормлена Деметрой и нимфами в пещере
-43	Dione	Диона	Богиня дождя, согласно орфикам — титанида, дочь Урана и Геи
-44	Eos	Эос	A Titaness and the goddess of the Dawn, who rose each morning from her home at the edge of the Oceanus
-45	Ersa	Эрса	Богиня росы, дочь Зевса и Селены, или Зевса и Эос.
-46	Eris	Эрида	Богиня раздора, первичная космогоническая сила: дочь Нюкты, внучка Хаоса. Породила голод, скорби, битвы, убийства, споры, тяжбы, беззаконие, но она же породила труд.
-47	Orion	Орион	A giant huntsman in Greek mythology whom Zeus placed among the stars
+п»ї1	Zeus	Р—РµРІСЃ	Р‘РѕРі РіСЂРѕРјР° Рё РјРѕР»РЅРёРё, РІРµСЂС…РѕРІРЅС‹Р№ Р±РѕРі
+2	Ares	РђСЂРµСЃ	Р‘РѕРі РІРѕР№РЅС‹, СЃС‹РЅ Р—РµРІСЃР° Рё Р“РµСЂС‹, РјСѓР¶ РђС„СЂРѕРґРёС‚С‹
+3	Athena	РђС„РёРЅР°	Р‘РѕРіРёРЅСЏ РІРѕР№РЅС‹ Рё РјСѓРґСЂРѕСЃС‚Рё, РґРѕС‡СЊ Р—РµРІСЃР° Рё РњРµС‚РёРґС‹, РјР°С‚СЊ Р­СЂРёС…С‚РѕРЅРёР№ Рё РєРѕСЂРёР±Р°РЅС‚РѕРІ
+4	Artemis	РђСЂС‚РµРјРёРґР°	Р‘РѕРіРёРЅСЏ РѕС…РѕС‚С‹, РїРѕРєСЂРѕРІРёС‚РµР»СЊРЅРёС†Р° РІСЃРµРіРѕ Р¶РёРІРѕРіРѕ, РґРѕС‡СЊ Р—РµРІСЃР° Рё С‚РёС‚Р°РЅРёРґС‹ Р›РµС‚Рѕ
+5	Apollo	РђРїРѕР»Р»РѕРЅ	Р‘РѕРі РёСЃРєСѓСЃСЃС‚РІ Рё РїСЂРµРґСЃРєР°Р·Р°РЅРёР№, СЃС‹РЅ Р—РµРІСЃР° Рё С‚РёС‚Р°РЅРёРґС‹ Р›РµС‚Рѕ
+6	Cronus	РљСЂРѕРЅРѕСЃ	Р’РµСЂС…РѕРІРЅРѕРµ Р±РѕР¶РµСЃС‚РІРѕ, РјР»Р°РґС€РёР№ СЃС‹РЅ РїРµСЂРІРѕРіРѕ Р±РѕРіР° РЈСЂР°РЅР° (РЅРµР±Р°) Рё Р±РѕРіРёРЅРё Р“РµРё (Р·РµРјР»Рё). РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ вЂ” Р±РѕРі Р·РµРјР»РµРґРµР»РёСЏ. РџСЂР°РІРёС‚РµР»СЊ РћР»РёРјРїР°, РїРѕР·Р¶Рµ РєР°СЃС‚СЂРёСЂРѕРІР°РЅ, СЃРІРµСЂР¶РµРЅ, Рё Р·Р°РєР»СЋС‡С‘РЅ РІ РўР°СЂС‚Р°СЂ
+7	Rhea	Р РµСЏ	РўРёС‚Р°РЅРёРґР°, РјР°С‚СЊ РѕР»РёРјРїРёР№СЃРєРёС… Р±РѕРіРѕРІ. Р”РѕС‡СЊ РЈСЂР°РЅР° Рё Р“РµРё. РЎСѓРїСЂСѓРіР° Рё СЃРµСЃС‚СЂР° С‚РёС‚Р°РЅР° РљСЂРѕРЅРѕСЃР°, РјР°С‚СЊ Р“РµСЃС‚РёРё, Р”РµРјРµС‚СЂС‹, Р“РµСЂС‹, РђРёРґР°, РџРѕСЃРµР№РґРѕРЅР°, Р—РµРІСЃР°. РџРѕ РѕСЂС„РёРєР°Рј, РґРѕС‡СЊ РџСЂРѕС‚РѕРіРѕРЅР°
+8	Dionysus	Р”РёРѕРЅРёСЃ	РњР»Р°РґС€РёР№ РёР· РѕР»РёРјРїРёР№С†РµРІ, Р±РѕРі СЂР°СЃС‚РёС‚РµР»СЊРЅРѕСЃС‚Рё, РІРёРЅРѕРіСЂР°РґР°СЂСЃС‚РІР°, РІРёРЅРѕРґРµР»РёСЏ, РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅС‹С… СЃРёР» РїСЂРёСЂРѕРґС‹, РІРґРѕС…РЅРѕРІРµРЅРёСЏ Рё СЂРµР»РёРіРёРѕР·РЅРѕРіРѕ СЌРєСЃС‚Р°Р·Р°. РЎС‹РЅ Р—РµРІСЃР° Рё СЃРјРµСЂС‚РЅРѕР№ РЎРµРјРµР»С‹, РјСѓР¶ РђСЂРёР°РґРЅС‹
+9	Hebe	Р“РµР±Р°	Р‘РѕРіРёРЅСЏ СЋРЅРѕСЃС‚Рё, РґРѕС‡СЊ Р—РµРІСЃР° Рё Р“РµСЂС‹ (РїРѕ РЅРµРєРѕС‚РѕСЂС‹Рј Р°РІС‚РѕСЂР°Рј, Р“РµСЂР° СЂРѕРґРёР»Р° РµС‘ РѕС‚ Р»Р°С‚СѓРєР°), СЃР»СѓР¶РёРІС€Р°СЏ РЅР° РћР»РёРјРїРµ РІРёРЅРѕС‡РµСЂРїРёРµРј Р±РѕРіРѕРІ РґРѕ С‚РµС… РїРѕСЂ, РїРѕРєР° РµС‘ РЅРµ СЃРјРµРЅРёР» Р“Р°РЅРёРјРµРґ. Р‘С‹Р»Р° РІС‹РґР°РЅР° Р·Р°РјСѓР¶ Р·Р° Р“РµСЂР°РєР»Р°, РєРѕРіРґР° РѕРЅ РѕР±СЂС‘Р» Р±РµСЃСЃРјРµСЂС‚РёРµ, РєР°Рє Р·РЅР°Рє РїСЂРёРјРёСЂРµРЅРёСЏ Р“РµСЂС‹ СЃ Р“РµСЂР°РєР»РѕРј
+10	Hermes	Р“РµСЂРјРµСЃ	" Р‘РѕРі С‚РѕСЂРіРѕРІР»Рё, РїСЂРёР±С‹Р»Рё, СЂР°Р·СѓРјРЅРѕСЃС‚Рё, Р»РѕРІРєРѕСЃС‚Рё, РїР»СѓС‚РѕРІСЃС‚РІР°, РѕР±РјР°РЅР°, РІРѕСЂРѕРІСЃС‚РІР° Рё РєСЂР°СЃРЅРѕСЂРµС‡РёСЏ, РґР°СЋС‰РёР№ Р±РѕРіР°С‚СЃС‚РІРѕ Рё РґРѕС…РѕРґ РІ С‚РѕСЂРіРѕРІР»Рµ, Р±РѕРі Р°С‚Р»РµС‚РѕРІ[3]. РџРѕРєСЂРѕРІРёС‚РµР»СЊ РіР»Р°С€Р°С‚Р°РµРІ, РїРѕСЃР»РѕРІ, РїР°СЃС‚СѓС…РѕРІ Рё РїСѓС‚РЅРёРєРѕРІ; РїРѕРєСЂРѕРІРёС‚РµР»СЊ РјР°РіРёРё, Р°Р»С…РёРјРёРё Рё Р°СЃС‚СЂРѕР»РѕРіРёРё. РџРѕСЃР»Р°РЅРЅРёРє Р±РѕРіРѕРІ Рё РїСЂРѕРІРѕРґРЅРёРє РґСѓС€ СѓРјРµСЂС€РёС… (РѕС‚СЃСЋРґР° РїСЂРѕР·РІРёС‰Рµ РџСЃРёС…РѕРїРѕРјРї вЂ” РїСЂРѕРІРѕРґРЅРёРє РґСѓС€) РІ РїРѕРґР·РµРјРЅРѕРµ С†Р°СЂСЃС‚РІРѕ РђРёРґР°. РР·РѕР±СЂС‘Р» РјРµСЂС‹, С‡РёСЃР»Р°, Р°Р·Р±СѓРєСѓ Рё РѕР±СѓС‡РёР» Р»СЋРґРµР№"
+11	Heracles	Р“РµСЂР°РєР»	Gatekeeper of Olympus, God of heroes, sports, athletes, health, agriculture, fertility, trade, oracles and divine protector of mankind
+12	Helen of Troy	Р•Р»РµРЅР° РўСЂРѕСЏРЅСЃРєР°СЏ	The daughter of Zeus and Leda (or Nemesis), step-daughter of King Tyndareus, wife of Menelaus and sister of Castor, Polydeuces and Clytemnestra
+13	Hephaestus	Р“РµС„РµСЃС‚	Р‘РѕРі РѕРіРЅСЏ Рё РєСѓР·РЅРµС‡РЅРѕРіРѕ СЂРµРјРµСЃР»Р°, СЃС‹РЅ Р—РµРІСЃР° Рё Р“РµСЂС‹, СЃСѓРїСЂСѓРі РђС„СЂРѕРґРёС‚С‹ (РїРѕ Р“РѕРјРµСЂСѓ)  РёР»Рё РҐР°СЂРёС‚С‹ РђРіР»Р°Рё (РїРѕ Р“РµСЃРёРґСѓ)
+14	Perseus	РџРµСЂСЃРµР№	The first of the heroes of Greek mythology whose exploits in defeating various archaic monsters provided the founding myths of the Twelve Olympians. Perseus was the Greek hero who killed the Gorgon Medusa, and claimed Andromeda, having rescued her from a sea monster sent by Poseidon in retribution for Queen Cassiopeia declaring that her daughter, Andromeda, was more beautiful than the Nereids
+15	Minos	РњРёРЅРѕСЃ	King of Crete, son of Zeus and Europa. After the death, he became a judge of the dead in the underworld
+16	Calliope	РљР°Р»Р»РёРѕРїР°	РњСѓР·Р° СЌРїРёС‡РµСЃРєРѕР№ РїРѕСЌР·РёРё, РЅР°СѓРєРё Рё С„РёР»РѕСЃРѕС„РёРё. РЎС‚Р°СЂС€Р°СЏ РґРѕС‡СЊ Р—РµРІСЃР° Рё РњРЅРµРјРѕСЃРёРЅС‹. РњР°С‚СЊ РћСЂС„РµСЏ Рё Р›РёРЅР° РѕС‚ РђРїРѕР»Р»РѕРЅР° (РёР»Рё РѕС‚ Р­Р°РіСЂР°). РџРѕ РѕРґРЅРѕР№ РёР· РІРµСЂСЃРёР№, РјР°С‚СЊ Р РµСЃР°. РџРѕ РІРµСЂСЃРёРё, СЂРѕРґРёР»Р° РѕС‚ РђРїРѕР»Р»РѕРЅР° Р“РѕРјРµСЂР°.
+17	Clio	РљР»РёРѕ	The muse of history. Like all the muses, she is a daughter of Zeus and Mnemosyne. She had one son, Hyacinth, with one of several kings, in various myths - with Pierus, King of Macedon, or with king Oebalus of Sparta, or with king Amyclas, progenitor of the people of Amyclae, dwellers about Sparta
+18	Erato	Р­СЂР°С‚Рѕ	The Muse of lyric poetry, especially love and erotic poetry
+19	Euterpe	Р­РІС‚РµСЂРїР°	РњСѓР·Р° Р»РёСЂРёС‡РµСЃРєРѕР№ РїРѕСЌР·РёРё Рё РјСѓР·С‹РєРё. РР·РѕР±СЂР°Р¶Р°Р»Р°СЃСЊ СЃ Р°РІР»РѕСЃРѕРј РёР»Рё СЃРёСЂРёРЅРіРѕР№ РІ СЂСѓРєР°С…. РњР°С‚СЊ Р РµСЃР° РѕС‚ СЂРµС‡РЅРѕРіРѕ Р±РѕРіР° РЎС‚СЂРёРјРѕРЅР°
+20	Melpomene	РњРµР»СЊРїРѕРјРµРЅР°	Initially the Muse of Singing, she then became the Muse of Tragedy, for which she is best known now
+21	Polyhymnia	РџРѕР»РёРіРёРјРЅРёСЏ	The Muse of sacred poetry, sacred hymn and eloquence as well as agriculture and pantomime
+22	Terpsichore	РўРµСЂРїСЃРёС…РѕСЂР°	One of the nine Muses, ruling over dance and the dramatic chorus
+23	Thalia	РўР°Р»РёСЏ	"The Muse who presided over comedy and idyllic poetry. In this context her name means \""flourishing\"", because the praises in her songs flourish through time. She was the daughter of Zeus and Mnemosyne, the eighth-born of the nine Muses"
+24	Urania	РЈСЂР°РЅРёСЏ	The muse of astronomy and a daughter of Zeus by Mnemosyne and also a granddaughter of Uranus. Some accounts list her as the mother of the musician Linus by Apollo, and Hymenaeus also is said to have been a son of her
+25	Graces	Р“СЂР°С†РёСЏ	Goddesses of charm, beauty, nature, human creativity and fertility
+26	Gaia	Р“РµСЏ	Р‘РѕРіРёРЅСЏ Р·РµРјР»Рё. Р РѕРґРёР»Р°СЃСЊ РІСЃР»РµРґ Р·Р° РҐР°РѕСЃРѕРј. РњР°С‚СЊ РІСЃРµРіРѕ, С‡С‚Рѕ Р¶РёРІРµС‚ Рё СЂР°СЃС‚РµС‚ РЅР° РЅРµР№, Р° С‚Р°РєР¶Рµ РјР°С‚СЊ РќРµР±Р°, РњРѕСЂСЏ, С‚РёС‚Р°РЅРѕРІ Рё РіРёРіР°РЅС‚РѕРІ. РџРѕ РѕРґРЅРѕР№ РІРµСЂСЃРёРё, РґРѕС‡СЊ Р­С„РёСЂР° Рё Р“РµРјРµСЂС‹
+27	Amalthea	РђРјР°Р»СЊС‚РµСЏ	The most-frequently mentioned foster-mother of Zeus
+28	Oceanus	РћРєРµР°РЅ	Р‘РѕР¶РµСЃС‚РІРѕ РІРµР»РёС‡Р°Р№С€РµР№ РјРёСЂРѕРІРѕР№ СЂРµРєРё, РѕРјС‹РІР°СЋС‰РµР№ Р·РµРјР»СЋ Рё РјРѕСЂРµ, РґР°СЋС‰РµР№ РЅР°С‡Р°Р»Рѕ СЂРµРєР°Рј, РёСЃС‚РѕС‡РЅРёРєР°Рј, РјРѕСЂСЃРєРёРј С‚РµС‡РµРЅРёСЏРј, РїСЂРёСЋС‚Р° СЃРѕР»РЅС†Р°, Р»СѓРЅС‹ Рё Р·РІС‘Р·Рґ. РўРёС‚Р°РЅ, СЃС‹РЅ РЈСЂР°РЅР° Рё Р“РµРё, Р±СЂР°С‚ Рё СЃСѓРїСЂСѓРі РўРµС„РёРґС‹, СЃ РєРѕС‚РѕСЂРѕР№ РѕРЅ РїРѕСЂРѕРґРёР» С‚СЂРё С‚С‹СЃСЏС‡Рё РґРѕС‡РµСЂРµР№ вЂ” РѕРєРµР°РЅРёРґ Рё СЃС‚РѕР»СЊРєРѕ Р¶Рµ СЃС‹РЅРѕРІРµР№ вЂ” СЂРµС‡РЅС‹С… РїРѕС‚РѕРєРѕРІ
+29	Aphrodite	РђС„СЂРѕРґРёС‚Р°	Р‘РѕРіРёРЅСЏ РїР»РѕРґРѕСЂРѕРґРёСЏ, Р»СЋР±РІРё Рё РєСЂР°СЃРѕС‚С‹. Р”РѕС‡СЊ РЈСЂР°РЅР°, РјР°С‚СЊ Р­РЅРµСЏ, Р¶РµРЅР° Р“РµС„РµСЃС‚Р°, Р»СЋР±РѕРІРЅРёС†Р° РђСЂРµСЃР°
+30	Leto	Р›РµС‚Рѕ	A daughter of the Titans Coeus and Phoebe and the sister of Asteria. The island of Kos is claimed as her birthplace
+31	Enyo	Р­РЅРёРѕ	Р‘РѕРіРёРЅСЏ РЅРµРёСЃС‚РѕРІРѕР№ РІРѕР№РЅС‹, СЃРїСѓС‚РЅРёС†Р° РђСЂРµСЃР°, РІР°РєС…Р°РЅРєР°. Р’РЅРѕСЃРёР»Р° СЃРјСЏС‚РµРЅРёРµ РІ Р±РёС‚РІСѓ, РІС‹Р·С‹РІР°Р»Р° РІ РІРѕРёРЅР°С… СЏСЂРѕСЃС‚СЊ. РџРѕ РѕРґРЅРѕР№ РёР· РІРµСЂСЃРёР№, РѕРґРЅР° РёР· Р“СЂР°Р№, РґРѕС‡СЊ Р¤РѕСЂРєРёСЏ Рё РљРµС‚Рѕ, СЃРµСЃС‚СЂР° Р”РµР№РЅРѕ Рё РџРµС„СЂРµРґРѕ
+32	Poseidon	РџРѕСЃРµР№РґРѕРЅ	God of the sea, earthquakes, storms, and horses
+33	Phoebe	Р¤РµР±Р°	РўРёС‚Р°РЅРёРґР°, РґРѕС‡СЊ РЈСЂР°РЅР° Рё Р“РµРё, СЃРµСЃС‚СЂР° Рё Р¶РµРЅР° РљРѕСЏ, РјР°С‚СЊ Р›РµС‚Рѕ Рё РђСЃС‚РµСЂРёРё, Р±Р°Р±СѓС€РєР° РђРїРѕР»Р»РѕРЅР° Рё РђСЂС‚РµРјРёРґС‹. РћРЅР° Р¶Рµ вЂ” РєРѕСЂРјРёР»РёС†Р° РђРїРѕР»Р»РѕРЅР°. РћРЅР° РІР»Р°РґРµР»Р° РїСЂРѕСЂРёС†Р°Р»РёС‰РµРј СЃ С…СЂР°РјРѕРј Рё РѕСЂР°РєСѓР»РѕРј РІ Р”РµР»СЊС„Р°С… РїРѕСЃР»Рµ Р¤РµРјРёРґС‹, Р·Р°С‚РµРј РїРѕРґР°СЂРёР»Р° РµРіРѕ РІРЅСѓРєСѓ
+34	Mnemosyne	РњРЅРµРјРѕР·РёРЅР°	The personification of memory in Greek mythology. This titaness was the daughter of Gaia and Uranus and the mother of the nine Muses by Zeus
+35	Aega	Р­РіР°	Р”РѕС‡СЊ Р“РµР»РёСЏ, РєРѕСЂРјРёР»РёС†Р° Р—РµРІСЃР°. РќР°РІРѕРґРёР»Р° РЅР° С‚РёС‚Р°РЅРѕРІ СЃС‚СЂР°С… СЃРІРѕРёРј РІР·РіР»СЏРґРѕРј, Рё Р“РµСЏ СЃРїСЂСЏС‚Р°Р»Р° РµС‘ РІ РїРµС‰РµСЂРµ РЅР° РљСЂРёС‚Рµ. РЎРѕРіР»Р°СЃРЅРѕ РїСЂРѕСЂРѕС‡РµСЃС‚РІСѓ, Р—РµРІСЃ РІРµР» Р±РёС‚РІСѓ РІ РєРѕР·СЊРµР№ С€РєСѓСЂРµ
+36	Pan	РџР°РЅ	God of Nature, the Wild, Shepherds, Flocks, Goats, of Mountain Wilds,and is often associated with sexuality
+37	Ananke	РђРЅР°РЅРєРµ	Personification of destiny, necessity and fate, depicted as holding a spindle. She marks the beginning of the cosmos, along with Chronos. She was seen as the most powerful dictator of all fate and circumstance which meant that mortals, as well as the Gods, respected her and paid homage
+38	Atropos	РђС‚СЂРѕРїРѕСЃ	"The oldest of the three Moirai, goddesses of fate and destiny, was known as the \""inflexible\"" or \""inevitable.\"""
+39	Clotho	РљР»РѕС‚Рѕ	РњРѕР№СЂР°, РїСЂСЏРґСѓС‰Р°СЏ РЅРёС‚СЊ Р¶РёР·РЅРё. РРјРµРЅРЅРѕ РѕРЅР° РІРµСЂРЅСѓР»Р° Р¶РёР·РЅСЊ РџРµР»РѕРїСѓ Рё РїСЂРµРґСЂРµРєР»Р° РђС„РёРЅРµ РґРµРІСЃС‚РІРµРЅРЅРѕСЃС‚СЊ
+40	Lachesis	Р›Р°С…РµСЃРёСЃ	РњРѕР№СЂР°, РѕРїСЂРµРґРµР»СЏСЋС‰Р°СЏ СЃСѓРґСЊР±Сѓ Р¶РёР·РЅРё (РґР»РёРЅСѓ РЅРёС‚Рё). РќР°Р±Р»СЋРґР°Р»Р° Р·Р° СЂРѕРґР°РјРё Р›РµС‚Рѕ
+41	Demeter	Р”РµРјРµС‚СЂР°	Р‘РѕРіРёРЅСЏ РїР»РѕРґРѕСЂРѕРґРёСЏ Рё Р·РµРјР»РµРґРµР»РёСЏ. РћРґРЅРѕ РёР· РЅР°РёР±РѕР»РµРµ РїРѕС‡РёС‚Р°РµРјС‹С… Р±РѕР¶РµСЃС‚РІ РѕР»РёРјРїРёР№СЃРєРѕРіРѕ РїР°РЅС‚РµРѕРЅР°. Р•С‘ РёРјСЏ РѕР·РЅР°С‡Р°РµС‚ В«РњР°С‚СЊ-Р—РµРјР»СЏВ». Р”РѕС‡СЊ РљСЂРѕРЅРѕСЃР° Рё Р РµРё
+42	Persephone	РџРµСЂСЃРµС„РѕРЅР°	Р‘РѕРіРёРЅСЏ РїР»РѕРґРѕСЂРѕРґРёСЏ Рё С†Р°СЂСЃС‚РІР° РјС‘СЂС‚РІС‹С…, РґРѕС‡СЊ Р”РµРјРµС‚СЂС‹ Рё Р—РµРІСЃР°. Р’СЃРєРѕСЂРјР»РµРЅР° Р”РµРјРµС‚СЂРѕР№ Рё РЅРёРјС„Р°РјРё РІ РїРµС‰РµСЂРµ
+43	Dione	Р”РёРѕРЅР°	Р‘РѕРіРёРЅСЏ РґРѕР¶РґСЏ, СЃРѕРіР»Р°СЃРЅРѕ РѕСЂС„РёРєР°Рј вЂ” С‚РёС‚Р°РЅРёРґР°, РґРѕС‡СЊ РЈСЂР°РЅР° Рё Р“РµРё
+44	Eos	Р­РѕСЃ	A Titaness and the goddess of the Dawn, who rose each morning from her home at the edge of the Oceanus
+45	Ersa	Р­СЂСЃР°	Р‘РѕРіРёРЅСЏ СЂРѕСЃС‹, РґРѕС‡СЊ Р—РµРІСЃР° Рё РЎРµР»РµРЅС‹, РёР»Рё Р—РµРІСЃР° Рё Р­РѕСЃ.
+46	Eris	Р­СЂРёРґР°	Р‘РѕРіРёРЅСЏ СЂР°Р·РґРѕСЂР°, РїРµСЂРІРёС‡РЅР°СЏ РєРѕСЃРјРѕРіРѕРЅРёС‡РµСЃРєР°СЏ СЃРёР»Р°: РґРѕС‡СЊ РќСЋРєС‚С‹, РІРЅСѓС‡РєР° РҐР°РѕСЃР°. РџРѕСЂРѕРґРёР»Р° РіРѕР»РѕРґ, СЃРєРѕСЂР±Рё, Р±РёС‚РІС‹, СѓР±РёР№СЃС‚РІР°, СЃРїРѕСЂС‹, С‚СЏР¶Р±С‹, Р±РµР·Р·Р°РєРѕРЅРёРµ, РЅРѕ РѕРЅР° Р¶Рµ РїРѕСЂРѕРґРёР»Р° С‚СЂСѓРґ.
+47	Orion	РћСЂРёРѕРЅ	A giant huntsman in Greek mythology whom Zeus placed among the stars
 48	Manes	Manes	The eponymous first king of Maeonia, and later came to be known as the first king in line of the primordial house of Lydia, the Atyad dynasty. He was believed to be a son of Gaia and Zeus
-49	Nemesis	Немесида	Крылатая богиня возмездия, карающая за нарушение общественных и моральных норм. Дочь Нюкты и Эреба
-50	Maia	Майя	Старшая из семи сестёр-плеяд, нимфа гор. Превосходила сестер красотой. В гроте аркадской горы Киллена Майя сошлась с Зевсом, от которого родила Гермеса
-51	Selene	Селена	Titaness of the Moon, an archaic lunar deity and the daughter of the Titans Hyperion and Theia
-52	Nemean lion	Немейский лев	" The offspring of Typhon (or Orthrus) and Echidna; it is also said to have fallen from the moon as the offspring of Zeus and Selene, or alternatively born of the Chimera. He was sent to the Peloponnesus to terrorize the city"
-53	Callisto	Каллисто	A nymph of Artemis. Transformed into a bear and set among the stars, she was the bear-mother of the Arcadians, through her son Arcas
-54	Dana?	Даная	Дочь Акрисия, царя Аргосского и Евридики. Так как Акрисию было предсказано, что он будет убит сыном своей дочери, то он заключил дочь в подземный медный дом и приставил к ней служанку. Зевс, пленившись красотой узницы, проник к ней в виде золотого дождя и оплодотворил её, у неё родился сын Персей
-55	Electra	Электра	One of the seven daughters of Atlas and Pleione, she was the wife of Corythus. She was raped by Zeus and gave birth to Dardanus
-56	Harmonia	Гармония	The immortal goddess of harmony and concord, she is the daughter of Ares and Aphrodite
-57	Europa	Европа	"A Phoenician woman of high lineage. The story of her abduction by Zeus in the form of a white bull was a Cretan story; as Ker?nyi points out most of the love-stories concerning Zeus originated from more ancient tales describing his marriages with goddesses"
-58	Rhadamanthus	Радамант	Судья в загробном мире, живет на Елисейский полях. Сын Зевса и Европы.
-59	Himalia	Гималия	Нимфа с Родоса. Когда Зевс одолел титанов, он вступил с ней в любовную связь, и она родила сыновей Спартея, Крония и Кита
-60	Leda	Леда	Daughter of the Aetolian king Thestius, and wife of the king Tyndareus, of Sparta. Her myth gave rise to the popular motif in Renaissance and later art (with the swan). She was the mother of Helen of Troy, Clytemnestra, and Castor and Pollux
-61	Dioscuri	Диоскуры	Twin brothers,  their mother was Leda, but one of them was the mortal son of Tyndareus, king of Sparta, and the other was the divine son of Zeus, who raped Leda in the guise of a swan. Though accounts of their birth are varied, they are sometimes said to have been born from an egg, along with their twin sisters Helen of Troy and Clytemnestra
-62	Pandora	Пандора	"The first woman. As Hesiod related it, each god helped create her by giving her unique gifts. Zeus ordered Hephaestus to mold her out of earth as part of the punishment of humanity for Prometheus' theft of the secret of fire, and all the gods joined in offering her \""seductive gifts\"""
-63	Plouto	Плуто	Нимфа, дочь Кроноса и Реи (или Океана и Тефиды). Родила от Зевса Тантала
-64	Tantalus	Тантал	Царь Сипила во Фригии, сын Зевса и нимфы Плуто. По Гомеру, испытывает в подземном царстве нестерпимые муки голода и жажды.
+49	Nemesis	РќРµРјРµСЃРёРґР°	РљСЂС‹Р»Р°С‚Р°СЏ Р±РѕРіРёРЅСЏ РІРѕР·РјРµР·РґРёСЏ, РєР°СЂР°СЋС‰Р°СЏ Р·Р° РЅР°СЂСѓС€РµРЅРёРµ РѕР±С‰РµСЃС‚РІРµРЅРЅС‹С… Рё РјРѕСЂР°Р»СЊРЅС‹С… РЅРѕСЂРј. Р”РѕС‡СЊ РќСЋРєС‚С‹ Рё Р­СЂРµР±Р°
+50	Maia	РњР°Р№СЏ	РЎС‚Р°СЂС€Р°СЏ РёР· СЃРµРјРё СЃРµСЃС‚С‘СЂ-РїР»РµСЏРґ, РЅРёРјС„Р° РіРѕСЂ. РџСЂРµРІРѕСЃС…РѕРґРёР»Р° СЃРµСЃС‚РµСЂ РєСЂР°СЃРѕС‚РѕР№. Р’ РіСЂРѕС‚Рµ Р°СЂРєР°РґСЃРєРѕР№ РіРѕСЂС‹ РљРёР»Р»РµРЅР° РњР°Р№СЏ СЃРѕС€Р»Р°СЃСЊ СЃ Р—РµРІСЃРѕРј, РѕС‚ РєРѕС‚РѕСЂРѕРіРѕ СЂРѕРґРёР»Р° Р“РµСЂРјРµСЃР°
+51	Selene	РЎРµР»РµРЅР°	Titaness of the Moon, an archaic lunar deity and the daughter of the Titans Hyperion and Theia
+52	Nemean lion	РќРµРјРµР№СЃРєРёР№ Р»РµРІ	" The offspring of Typhon (or Orthrus) and Echidna; it is also said to have fallen from the moon as the offspring of Zeus and Selene, or alternatively born of the Chimera. He was sent to the Peloponnesus to terrorize the city"
+53	Callisto	РљР°Р»Р»РёСЃС‚Рѕ	A nymph of Artemis. Transformed into a bear and set among the stars, she was the bear-mother of the Arcadians, through her son Arcas
+54	Dana?	Р”Р°РЅР°СЏ	Р”РѕС‡СЊ РђРєСЂРёСЃРёСЏ, С†Р°СЂСЏ РђСЂРіРѕСЃСЃРєРѕРіРѕ Рё Р•РІСЂРёРґРёРєРё. РўР°Рє РєР°Рє РђРєСЂРёСЃРёСЋ Р±С‹Р»Рѕ РїСЂРµРґСЃРєР°Р·Р°РЅРѕ, С‡С‚Рѕ РѕРЅ Р±СѓРґРµС‚ СѓР±РёС‚ СЃС‹РЅРѕРј СЃРІРѕРµР№ РґРѕС‡РµСЂРё, С‚Рѕ РѕРЅ Р·Р°РєР»СЋС‡РёР» РґРѕС‡СЊ РІ РїРѕРґР·РµРјРЅС‹Р№ РјРµРґРЅС‹Р№ РґРѕРј Рё РїСЂРёСЃС‚Р°РІРёР» Рє РЅРµР№ СЃР»СѓР¶Р°РЅРєСѓ. Р—РµРІСЃ, РїР»РµРЅРёРІС€РёСЃСЊ РєСЂР°СЃРѕС‚РѕР№ СѓР·РЅРёС†С‹, РїСЂРѕРЅРёРє Рє РЅРµР№ РІ РІРёРґРµ Р·РѕР»РѕС‚РѕРіРѕ РґРѕР¶РґСЏ Рё РѕРїР»РѕРґРѕС‚РІРѕСЂРёР» РµС‘, Сѓ РЅРµС‘ СЂРѕРґРёР»СЃСЏ СЃС‹РЅ РџРµСЂСЃРµР№
+55	Electra	Р­Р»РµРєС‚СЂР°	One of the seven daughters of Atlas and Pleione, she was the wife of Corythus. She was raped by Zeus and gave birth to Dardanus
+56	Harmonia	Р“Р°СЂРјРѕРЅРёСЏ	The immortal goddess of harmony and concord, she is the daughter of Ares and Aphrodite
+57	Europa	Р•РІСЂРѕРїР°	"A Phoenician woman of high lineage. The story of her abduction by Zeus in the form of a white bull was a Cretan story; as Ker?nyi points out most of the love-stories concerning Zeus originated from more ancient tales describing his marriages with goddesses"
+58	Rhadamanthus	Р Р°РґР°РјР°РЅС‚	РЎСѓРґСЊСЏ РІ Р·Р°РіСЂРѕР±РЅРѕРј РјРёСЂРµ, Р¶РёРІРµС‚ РЅР° Р•Р»РёСЃРµР№СЃРєРёР№ РїРѕР»СЏС…. РЎС‹РЅ Р—РµРІСЃР° Рё Р•РІСЂРѕРїС‹.
+59	Himalia	Р“РёРјР°Р»РёСЏ	РќРёРјС„Р° СЃ Р РѕРґРѕСЃР°. РљРѕРіРґР° Р—РµРІСЃ РѕРґРѕР»РµР» С‚РёС‚Р°РЅРѕРІ, РѕРЅ РІСЃС‚СѓРїРёР» СЃ РЅРµР№ РІ Р»СЋР±РѕРІРЅСѓСЋ СЃРІСЏР·СЊ, Рё РѕРЅР° СЂРѕРґРёР»Р° СЃС‹РЅРѕРІРµР№ РЎРїР°СЂС‚РµСЏ, РљСЂРѕРЅРёСЏ Рё РљРёС‚Р°
+60	Leda	Р›РµРґР°	Daughter of the Aetolian king Thestius, and wife of the king Tyndareus, of Sparta. Her myth gave rise to the popular motif in Renaissance and later art (with the swan). She was the mother of Helen of Troy, Clytemnestra, and Castor and Pollux
+61	Dioscuri	Р”РёРѕСЃРєСѓСЂС‹	Twin brothers,  their mother was Leda, but one of them was the mortal son of Tyndareus, king of Sparta, and the other was the divine son of Zeus, who raped Leda in the guise of a swan. Though accounts of their birth are varied, they are sometimes said to have been born from an egg, along with their twin sisters Helen of Troy and Clytemnestra
+62	Pandora	РџР°РЅРґРѕСЂР°	"The first woman. As Hesiod related it, each god helped create her by giving her unique gifts. Zeus ordered Hephaestus to mold her out of earth as part of the punishment of humanity for Prometheus' theft of the secret of fire, and all the gods joined in offering her \""seductive gifts\"""
+63	Plouto	РџР»СѓС‚Рѕ	РќРёРјС„Р°, РґРѕС‡СЊ РљСЂРѕРЅРѕСЃР° Рё Р РµРё (РёР»Рё РћРєРµР°РЅР° Рё РўРµС„РёРґС‹). Р РѕРґРёР»Р° РѕС‚ Р—РµРІСЃР° РўР°РЅС‚Р°Р»Р°
+64	Tantalus	РўР°РЅС‚Р°Р»	Р¦Р°СЂСЊ РЎРёРїРёР»Р° РІРѕ Р¤СЂРёРіРёРё, СЃС‹РЅ Р—РµРІСЃР° Рё РЅРёРјС„С‹ РџР»СѓС‚Рѕ. РџРѕ Р“РѕРјРµСЂСѓ, РёСЃРїС‹С‚С‹РІР°РµС‚ РІ РїРѕРґР·РµРјРЅРѕРј С†Р°СЂСЃС‚РІРµ РЅРµСЃС‚РµСЂРїРёРјС‹Рµ РјСѓРєРё РіРѕР»РѕРґР° Рё Р¶Р°Р¶РґС‹.

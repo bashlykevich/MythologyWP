@@ -1,4 +1,4 @@
-1	Ra	Ra	God of the Sun. In one of his many forms, he has the head of a falcon and the sun-disk resting on his head.
+﻿1	Ra	Ra	God of the Sun. In one of his many forms, he has the head of a falcon and the sun-disk resting on his head.
 2	Thoth	Thoth	God of Knowledge, Hieroglyphs and Wisdom, in one of his forms as an ibis-headed man
 3	Amun	Amun	King of the Gods, a local deity of Thebes. He was attested since the Old Kingdom together with his spouse Amaunet
 4	Anubis	Anubis	Protector of the dead and embalming, a jackal-headed god associated with mummification and the afterlife in ancient Egyptian religion. He is the son of Nephthys and Set according to the Egyptian mythology
@@ -33,6 +33,6 @@
 33	Ammit	Ammit	"A female demon with a body that was part lion, hippopotamus and crocodile. A funerary deity, her titles included \""Devourer of the Dead\"", \""Eater of Hearts\"", and \""Great of Death\""."
 34	Huh	Huh	One of the oldest Egyptian gods in ancient Egyptian history, the deification of eternity in the Ogdoad. He was the god of infinity and time, the god of long life and eternity. He has no gender, but has the aspect that can represent as male or female.
 35	Kuk	Kuk	The deification of the primordial concept of darkness. His male form was depicted as a frog, or as a frog-headed man, and the female form as a snake, or a snake-headed woman. As a symbol of darkness, He also represented obscurity and the unknown, and thus chaos
-36	Nu	Nu	The deification of the primordial watery abyss. He was depicted as a bearded man with rippled blue skin symbolizing water. Sometimes he was portrayed with a woman�s breasts to demonstrate his aspect as a fertility god. His symbols were palm fronds which represent long life and he is often shown wearing one in his hair and carrying one in his hand
+36	Nu	Nu	The deification of the primordial watery abyss. He was depicted as a bearded man with rippled blue skin symbolizing water. Sometimes he was portrayed with a woman’s breasts to demonstrate his aspect as a fertility god. His symbols were palm fronds which represent long life and he is often shown wearing one in his hair and carrying one in his hand
 37	Ogdoad	Ogdoad	Eight deities worshipped in Hermopolis during what is called the Old Kingdom (Naunet and Nu, Amaunet and Amun, Kauket and Kuk, Hauhet and Huh). The females were associated with snakes and the males were associated with frogs,
 38	Aten	Aten	A being who represented the god or spirit of the sun, and the actual solar disk. He was depicted as a disk with rays reaching to the earth. At the end of the rays were human hands which often extended the ankh to the pharaoh                       
