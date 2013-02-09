@@ -106,7 +106,7 @@ namespace MythologyWP.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mythology Quiz for Windows Phone.
+        ///   Looks up a localized string similar to MYTHOLOGY QUIZ FOR WINDOWS PHONE.
         /// </summary>
         public static string ApplicationTitle {
             get {

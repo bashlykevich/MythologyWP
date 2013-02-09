@@ -2,8 +2,18 @@
 Truncate long plots
 Create email on myth-quiz-dev@live.com
 Fix scandinavian unicode symbols
-Metro design guidelines require the application title at the top of the page to be in all caps 
 German interface localization
 Spain interface localization
-Chineese interface localization
+Chinese interface localization
 France interface localization
+Free version: Advertisement in the game screen
+Free version myths: Greek
+Free version myths: Scand
+Free version myths: Egipt???
+Payed version myths: +Chinese
+Payed version myths: +hindu
+Payed version myths: +japan
+Payed version myths: +afro
+Payed version myths: +rome
+Payed version myths: +slavic
+Payed version myths: +belarus
