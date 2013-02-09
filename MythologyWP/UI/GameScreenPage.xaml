@@ -39,8 +39,7 @@
             <TextBlock Name="edtNation"
                        Margin="5,1,5,1"
                        Foreground="Black"
-                       FontWeight="Bold"                   
-                       Text="Greekz"/>
+                       FontWeight="Bold"/>
             </Grid>
         </StackPanel>
         <!--ContentPanel - place additional content here-->
@@ -51,7 +50,7 @@
                 <RowDefinition Height="80" />
                 <RowDefinition Height="80" />
                 <RowDefinition Height="80" />
-                <RowDefinition Height="150"/>
+                <RowDefinition Height="0"/>
             </Grid.RowDefinitions>
 
             <ScrollViewer Name="svQuestion"
@@ -135,6 +134,7 @@
                                Text="Version" Margin="2,0,0,0" VerticalAlignment="Center" />
                 </Grid>
             </Button>
+            
             <StackPanel Name="spFooter"                        
                         Grid.Row="5"
                         Orientation="Vertical">
